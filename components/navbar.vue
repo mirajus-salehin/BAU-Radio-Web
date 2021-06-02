@@ -1,0 +1,26 @@
+<template>
+  <nav class="flex justify-between pt-6 mr-10">
+    <div class="invisible">BAU Radio</div>
+    <div class="flex justify-between space-x-4 pr-6">
+      <nuxt-link to="/" class="nav-item" exact="">Home</nuxt-link>
+      <nuxt-link to="ourteam" class="nav-item" exact="">Our team</nuxt-link>
+      <nuxt-link to="shows" class="nav-item" exact="">Shows</nuxt-link>
+      <nuxt-link to="contact" class="nav-item" exact="">Contact us</nuxt-link>
+      <nuxt-link to="blog" class="nav-item" exact="">Blog</nuxt-link>
+    </div>
+  </nav>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style>
+.nav-item{
+  @apply px-6 py-2 hover:cursor-pointer hover:bg-brand-green-lighter hover:text-white rounded-xl font-bold transition duration-200;
+}
+a.nuxt-link-active{
+  @apply bg-brand-green text-white font-bold;
+}
+
+</style>
