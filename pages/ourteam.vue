@@ -23,6 +23,7 @@
 import teamcard from "@/components/teamcard";
 export default {
   components: teamcard,
+  head(){return{title:"Team"}},
   data(){
     return{
       teams:[
