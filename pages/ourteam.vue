@@ -9,7 +9,7 @@
         category
       </h2>
     </div>
-    <div class="mx-auto grid grid-cols-3 gap-4 place-items-center mt-6" >
+    <div class="mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center mt-6" >
       <teamcard v-for="team in teams" :key="team"
         :name="team.name"
         :logo="team.logo"

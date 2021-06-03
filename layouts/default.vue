@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <main>
     <navbar />
     <Nuxt />
     <footer class="mt-12">
       <foot />
     </footer>
-  </div>
+  </main>
 </template>
 
 <style>
