@@ -1,3 +1,7 @@
+env:
+  global:
+    secure:"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"
+
 language: node_js
 node_js:
   - '12'
@@ -20,7 +24,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $BAU_Radio_deploy # Set in travis-ci.org dashboard, marked secure https://docs.travis-ci.com/user/deployment/pages/#Setting-the-GitHub-token
+  github-token: $GITHUB_TOKEN # Set in travis-ci.org dashboard, marked secure https://docs.travis-ci.com/user/deployment/pages/#Setting-the-GitHub-token
   target-branch: gh-pages
   local-dir: dist
   on:
