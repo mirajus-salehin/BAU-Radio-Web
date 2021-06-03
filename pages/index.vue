@@ -67,6 +67,11 @@ import svg3 from "~/components/svg3";
 import whocard from "~/components/whocard";
 export default {
   components: { svg1, svg2, svg3, whocard },
+  head(){
+    return {
+      title:"BAU Radio"
+    }
+  },
   data() {
     return {
       whos: [

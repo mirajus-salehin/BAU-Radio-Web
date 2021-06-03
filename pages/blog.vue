@@ -8,6 +8,11 @@
 
 <script>
 export default {
+  head(){
+    return{
+      title:"BAU Radio Blog"
+    }
+  }
 
 }
 </script>
