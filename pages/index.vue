@@ -23,7 +23,7 @@
         <h1 class="title-text">Who are we</h1>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-center justify-items-center gap-4">
-        <whocard v-for="who in whos" :key="who"
+        <whocard v-for="(who) in whos" :key="who"
           :title="who.title"
           :subtitle="who.subtitle"
           :logo="who.logoDir"

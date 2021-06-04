@@ -2,7 +2,7 @@
   <main>
     <navbar />
     <Nuxt />
-    <footer class="mt-12">
+    <footer>
       <foot />
     </footer>
   </main>
