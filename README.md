@@ -1,5 +1,19 @@
 # bau-radio-web
 [![wakatime](https://wakatime.com/badge/github/mirajus-salehin/BAU-Radio-Web.svg)](https://wakatime.com/badge/github/mirajus-salehin/BAU-Radio-Web)
+![GitHub repo size](https://img.shields.io/github/repo-size/mirajus-salehin/BAU-Radio-Web)
+![Lines of code](https://img.shields.io/tokei/lines/github/mirajus-salehin/BAU-Radio-Web)
+![GitHub last commit](https://img.shields.io/github/last-commit/mirajus-salehin/BAU-Radio-Web)
+# Dependencies 
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/mirajus-salehin/BAU-Radio-Web/nuxt)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/mirajus-salehin/BAU-Radio-Web/@nuxt/content)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/mirajus-salehin/BAU-Radio-Web/@tailwindcss/typography)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/mirajus-salehin/BAU-Radio-Web/core-js)
+
+# Dev dependencies
+![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/mirajus-salehin/BAU-Radio-Web/dev/postcss)
+![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/mirajus-salehin/BAU-Radio-Web/dev/@nuxt/image)
+![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/mirajus-salehin/BAU-Radio-Web/dev/@nuxtjs/tailwindcss)
+
 ## Build Setup
 
 ```bash
