@@ -1,5 +1,5 @@
 # bau-radio-web
-
+[![wakatime](https://wakatime.com/badge/github/mirajus-salehin/BAU-Radio-Web.svg)](https://wakatime.com/badge/github/mirajus-salehin/BAU-Radio-Web)
 ## Build Setup
 
 ```bash
