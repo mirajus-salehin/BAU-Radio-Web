@@ -1,5 +1,7 @@
 <template>
-  <section class="bg-brand-green grid grid-cols-1 md:grid-cols-3 gap-4 p-20 md:p-10">
+  <section
+    class="bg-brand-green grid grid-cols-1 md:grid-cols-3 gap-4 p-20 md:p-10"
+  >
     <div class="flex justify-center space-x-4 w-full mt-6 md:m-0">
       <img src="../assets/svg/facebook.svg" alt="" class="h-10" />
       <img src="../assets/svg/instagram.svg" alt="" class="h-10" />
@@ -8,7 +10,15 @@
       <img src="../assets/svg/spotify.svg" alt="" class="h-10" />
     </div>
     <div class="text-white p-6 md:p-0 w-full">
-      <p class="pb-6 font-light text-gray-100 text-xl md:text-base tracking-wider">
+      <p
+        class="
+          pb-6
+          font-light
+          text-gray-100 text-xl
+          md:text-base
+          tracking-wider
+        "
+      >
         Support
       </p>
       <ul>
@@ -18,7 +28,15 @@
       </ul>
     </div>
     <div class="text-white p-6 md:p-0">
-      <p class="pb-6 font-light text-gray-100 text-xl md:text-base tracking-wider">
+      <p
+        class="
+          pb-6
+          font-light
+          text-gray-100 text-xl
+          md:text-base
+          tracking-wider
+        "
+      >
         BAU Radio
       </p>
       <ul>
@@ -32,12 +50,9 @@
 </template>
 
 <script>
-import footersvg from "./footersvg";
-export default {
-  components: { footersvg },
-};
+export default {};
 </script>
-<style>
+<style scoped>
 ul {
   list-style-type: circle;
 }

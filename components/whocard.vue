@@ -14,9 +14,9 @@
 <script>
 export default {
   props: {
-    title: { type: String },
-    logo: { type: String },
-    subtitle: { type: String },
+    title: { type: String, default: () => {} },
+    logo: { type: String, default: () => {} },
+    subtitle: { type: String, default: () => {} },
   },
 };
 </script>
