@@ -2,6 +2,7 @@
   "name": "bau-radio-web",
   "version": "1.0.0",
   "private": true,
+  "keywords": ["bau-radio"],
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
