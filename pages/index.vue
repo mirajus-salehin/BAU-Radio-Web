@@ -1,11 +1,21 @@
 <template>
   <div>
     <!--intro section-->
-    <section class="md:flex space-y-2 md:space-x-1 mt-10">
+    <section class="md:flex space-y-2 md:space-x-1 mt-10 w-screen">
       <div class="w-full md:w-2/5 m-auto">
         <h1 class="title-text">BAU Radio</h1>
         <h3 class="moto">Echoes of dreams</h3>
-        <p class="pt-4 md:pt-10 mr-10 ml-10 text-justify md:text-left leading-loose">
+        <p
+          class="
+            pt-4
+            md:pt-10
+            mr-10
+            ml-10
+            text-justify
+            md:text-left
+            leading-loose
+          "
+        >
           An online radio service in Bangladesh Agrciltural University that is
           run by the students, for the students, to the students. Tune in more
           talks like our campus life.We also arrange expert talks on agriculture
@@ -22,8 +32,19 @@
       <div class="mx-auto mb-10">
         <h1 class="title-text">Who are we</h1>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-center justify-items-center gap-4">
-        <whocard v-for="(who) in whos" :key="who"
+      <div
+        class="
+          grid grid-cols-1
+          md:grid-cols-2
+          lg:grid-cols-4
+          place-items-center
+          justify-items-center
+          gap-4
+        "
+      >
+        <whocard
+          v-for="who in whos"
+          :key="who"
           :title="who.title"
           :subtitle="who.subtitle"
           :logo="who.logoDir"
@@ -46,7 +67,7 @@
     <section class="md:flex space-x-1 mt-10">
       <div class="w-full md:w-2/5 m-auto">
         <h1 class="title-text text-center">Got anything to share?</h1>
-        <p class="pt-10 pr-4 ml-10 text-justify">
+        <p class="pt-10 px-4 mx-10 text-justify">
           We will help you to share to the whole university. Through our
           platform you will have access to the thousands of students of our
           university and others.
@@ -67,10 +88,10 @@ import svg3 from "~/components/svg3";
 import whocard from "~/components/whocard";
 export default {
   components: { svg1, svg2, svg3, whocard },
-  head(){
+  head() {
     return {
-      title:"BAU Radio"
-    }
+      title: "BAU Radio",
+    };
   },
   data() {
     return {
@@ -79,25 +100,25 @@ export default {
           title: "First ever",
           subtitle:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget condimentum pulvinar.",
-          "logoDir":"/logos/who card logos/firstever.svg"
+          logoDir: "/logos/who card logos/firstever.svg",
         },
         {
           title: "Made with love",
           subtitle:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget condimentum pulvinar.",
-          "logoDir":"/logos/who card logos/love.svg"
+          logoDir: "/logos/who card logos/love.svg",
         },
         {
           title: "Your voice",
           subtitle:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget condimentum pulvinar.",
-          "logoDir":"/logos/who card logos/voice.svg"
+          logoDir: "/logos/who card logos/voice.svg",
         },
         {
           title: "Your voice",
           subtitle:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget condimentum pulvinar.",
-          "logoDir":"/logos/who card logos/voice.svg"
+          logoDir: "/logos/who card logos/voice.svg",
         },
       ],
     };
@@ -111,7 +132,7 @@ export default {
 }
 
 .moto {
-  @apply hidden md:block py-2 ml-10 text-xl lg:text-2xl text-brand-black tracking-wide font-semibold;
+  @apply hidden md:block py-2 mx-10 text-xl lg:text-2xl text-brand-black tracking-wide font-semibold;
 }
 .btn {
   @apply bg-brand-green text-white hover:shadow-md hover:bg-brand-dark font-bold rounded-full px-8 py-2 transition duration-200;

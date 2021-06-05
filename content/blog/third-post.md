@@ -1,12 +1,12 @@
 ---
-title: My first blog post
-description: Welcome to my first blog post using the content module.
-slug: first-post
+title: My third blog post
+description: Welcome to my third blog post using the content module.
+slug: third-post
 read: 2 min read
-date: 4 Jun 2021
+date: 5 Jun 2021
 ---
 
-# My first blog post
+# My third blog post
 
 Welcome to my first blog post using content module
 

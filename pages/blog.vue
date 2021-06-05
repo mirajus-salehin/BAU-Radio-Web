@@ -1,11 +1,20 @@
 <template>
   <section>
-    <h2 class="font-bold text-lg">Latest Posts</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-6 min-h-screen">
+    <h2 class="font-bold text-2xl">Latest Posts</h2>
+    <div
+      class="
+        grid grid-cols-1
+        md:grid-cols-2
+        lg:grid-cols-3
+        gap-4
+        p-6
+        min-h-screen
+      "
+    >
       <div v-for="article of articles" :key="article">
         <nuxt-link :to="{ name: 'slug', params: { slug: article.slug } }">
           <div class="card flex flex-col space-y-4">
-            <div class="h-60 w-full bg-gray-100 rounded-md"></div>
+            <div class="h-72 w-full bg-gray-100 rounded-md"></div>
             <div class="my-auto px-6">
               <h3 class="text-brand-green text-xl font-semibold py-4">
                 {{ article.title }}
@@ -58,7 +67,7 @@ export default {
   async asyncData({ $content, params }) {
     const articles = await $content("blog", params.slug)
       .only(["title", "description", "slug", "read", "date"])
-      .sortBy("createdAt", "asc")
+      .sortBy("date", "asc")
       .fetch();
     return {
       articles,
