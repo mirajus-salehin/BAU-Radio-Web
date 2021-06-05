@@ -4,7 +4,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/mirajus-salehin/BAU-Radio-Web)
 ![Lines of code](https://img.shields.io/tokei/lines/github/mirajus-salehin/BAU-Radio-Web)
 ![GitHub last commit](https://img.shields.io/github/last-commit/mirajus-salehin/BAU-Radio-Web)
-![Netlify](https://img.shields.io/netlify/c4d4064d-3337-4f4b-aee9-7f47e5f5533f)
+![Netlify](https://img.shields.io/netlify/a8e05c60-23f6-4c6e-9588-13581a57fd55)
 ![GitHub deployments](https://img.shields.io/github/deployments/mirajus-salehin/BAU-Radio-Web/Production)
 # Dependencies 
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/mirajus-salehin/BAU-Radio-Web/nuxt)
