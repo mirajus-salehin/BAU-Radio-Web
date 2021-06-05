@@ -67,7 +67,7 @@
     <section class="md:flex space-x-1 mt-10">
       <div class="w-full md:w-2/5 m-auto">
         <h1 class="title-text text-center">Got anything to share?</h1>
-        <p class="pt-10 pr-4 ml-10 text-justify">
+        <p class="pt-10 px-4 mx-10 text-justify">
           We will help you to share to the whole university. Through our
           platform you will have access to the thousands of students of our
           university and others.

@@ -13,7 +13,7 @@
       <div class="flex md:hidden button">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
+          class="h-6 w-6 transition-all"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -29,12 +29,12 @@
     </div>
     <!--mobile menu-->
     <div class="mobile-menu hidden md:hidden mr-2 bg-white">
-      <div class="flex flex-col">
-        <nuxt-link to="/" class="nav-item" exact="">Home</nuxt-link>
-        <nuxt-link to="/ourteam" class="nav-item" exact="">Our team</nuxt-link>
-        <nuxt-link to="/shows" class="nav-item" exact="">Shows</nuxt-link>
-        <nuxt-link to="/contact" class="nav-item" exact="">Contact us</nuxt-link>
-        <nuxt-link to="/blog" class="nav-item" exact="">Blog</nuxt-link>
+      <div class="flex flex-col gap-2">
+        <nuxt-link to="/" class="mobile-nav" exact="">Home</nuxt-link>
+        <nuxt-link to="/ourteam" class="mobile-nav" exact="">Our team</nuxt-link>
+        <nuxt-link to="/shows" class="mobile-nav" exact="">Shows</nuxt-link>
+        <nuxt-link to="/contact" class="mobile-nav" exact="">Contact us</nuxt-link>
+        <nuxt-link to="/blog" class="mobile-nav" exact="">Blog</nuxt-link>
       </div>
     </div>
   </nav>
@@ -56,6 +56,9 @@ export default {
 <style>
 .nav-item {
   @apply px-6 py-2 hover:cursor-pointer hover:bg-brand-green-lighter hover:text-white rounded-xl font-bold transition duration-200;
+}
+.mobile-nav {
+  @apply px-6 py-2 bg-white;
 }
 a.nuxt-link-active {
   @apply bg-brand-green text-white font-bold;
