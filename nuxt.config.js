@@ -30,7 +30,7 @@ export default {
   render:{
     csp:true
 
-  }.
+  },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
