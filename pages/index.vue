@@ -1,7 +1,7 @@
 <template>
   <div>
     <!--intro section-->
-    <section class="md:flex space-y-2 md:space-x-1 mt-10 bg-gray-50">
+    <section class="md:flex space-y-2 md:space-x-1 mt-10">
       <div class="w-full md:w-2/5 m-auto">
         <h1 class="title-text">BAU Radio</h1>
         <h3 class="moto">Echoes of dreams</h3>
@@ -18,8 +18,8 @@
         >
           An online radio service in Bangladesh Agrciltural University that is
           run by the students, for the students, to the students. Tune in more
-          talks like our campus life. We also arrange expert talks on agriculture
-          for farmers.
+          talks like our campus life. We also arrange expert talks on
+          agriculture for farmers.
         </p>
         <div class="ml-10 mt-4 mb-4">
           <button class="btn">Tune in</button>
@@ -28,9 +28,9 @@
       <div class="w-full md:w-3/5 mx-auto"><svg1 /></div>
     </section>
     <!--who are we-->
-    <section class="md:flex md:flex-col mt-10 mb-10">
+    <section class="md:flex md:flex-col mt-24 mb-10">
       <div class="mx-auto mb-10">
-        <h1 class="title-text">Who are we</h1>
+        <h1 class="mx-auto text-center font-bold text-3xl lg:text-5xl">Who are we</h1>
       </div>
       <div
         class="
@@ -40,7 +40,6 @@
           place-items-center
           justify-items-center
           gap-4
-          bg-gray-50
         "
       >
         <whocard
@@ -53,7 +52,7 @@
       </div>
     </section>
     <!--echoes of dreams-->
-    <section class="md:flex space-x-1 mt-10 bg-gray-50">
+    <section class="md:flex space-x-1 mt-10">
       <div class="w-full md:w-3/5"><svg2 /></div>
       <div class="w-full md:w-2/5 m-auto text-center">
         <h1 class="title-text">Echoes of dreams</h1>
@@ -65,7 +64,7 @@
       </div>
     </section>
     <!--got anything to share-->
-    <section class="md:flex space-x-1 mt-10 bg-gray-50">
+    <section class="md:flex space-x-1 mt-10">
       <div class="w-full md:w-2/5 m-auto">
         <h1 class="title-text text-center">Got anything to share?</h1>
         <p class="pt-10 px-4 mx-10 text-justify">
