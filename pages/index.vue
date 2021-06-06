@@ -25,7 +25,7 @@
           <button class="btn">Tune in</button>
         </div>
       </div>
-      <div class="w-full md:w-3/5 mx-auto"><svg1 /></div>
+      <div class="w-full md:w-3/5"><svg1 class="mx-auto"/></div>
     </section>
     <!--who are we-->
     <section class="md:flex md:flex-col mt-24 mb-10">
@@ -126,7 +126,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .title-text {
   @apply font-bold text-3xl lg:text-5xl py-4 md:py-8 px-10 md:pl-10 tracking-widest;
 }
