@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <div class="flex justify-between items-center pt-6 mr-10">
+    <div class="flex justify-between items-center pt-6 pr-10">
       <div class="invisible">BAU Radio</div>
       <div class="hidden md:flex justify-between space-x-4 pr-6" ref="menu">
         <nuxt-link to="/" class="nav-item" exact="">Home</nuxt-link>

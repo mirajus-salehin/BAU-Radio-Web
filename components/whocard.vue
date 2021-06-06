@@ -1,5 +1,5 @@
 <template>
-  <div class="w-96 transition duration-200 rounded-md px-6 mx-auto">
+  <div class="rounded-md px-6 mx-auto bg-white">
     <img :src="logo" alt="" class="mx-auto p-10" />
     <p class="font-bold text-2xl mx-auto text-center">
       {{ title }}

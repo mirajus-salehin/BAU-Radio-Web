@@ -6,7 +6,7 @@
         grid grid-cols-1
         md:grid-cols-2
         lg:grid-cols-3
-        gap-4
+        gap-6
         p-6
         min-h-screen
       "
@@ -78,6 +78,6 @@ export default {
 
 <style scoped>
 .card {
-  @apply shadow-md rounded-xl p-4;
+  @apply shadow-md hover:shadow-lg hover:border-2 rounded-xl p-4 transition-all ease-out duration-200 transform hover:-translate-y-2;
 }
 </style>
