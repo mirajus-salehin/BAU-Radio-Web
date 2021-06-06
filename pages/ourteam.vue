@@ -3,8 +3,8 @@
     <div class="mx-auto">
       <h1>Meet our team</h1>
     </div>
-    <div class="w-80 mx-auto mb-10">
-      <h2>
+    <div class="w-full mx-auto mb-10">
+      <h2 class="text-center mx-auto">
         Our teams are divided into 12 different category. View the members as
         category
       </h2>
@@ -87,7 +87,7 @@ export default {
           logo: "/team/logos/logo_m.svg",
         },
         {
-          name: "Video Eeiting",
+          name: "Video Editing",
           subtitle: "The manipulators of emotion",
           logo: "/team/logos/logo_ve.svg",
         },
