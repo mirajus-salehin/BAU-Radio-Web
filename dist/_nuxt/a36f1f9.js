@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{247:function(e,t,n){e.exports=n.p+"img/Dreamer-amico.7e9045e.svg"},251:function(e,t,n){"use strict";n.r(t);var r={},c=n(15),component=Object(c.a)(r,(function(){var e=this.$createElement;return(this._self._c||e)("img",{attrs:{src:n(247),alt:""}})}),[],!1,null,null,null);t.default=component.exports}}]);
