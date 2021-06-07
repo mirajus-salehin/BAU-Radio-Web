@@ -5,7 +5,7 @@
       {{ title }}
     </p>
     <br />
-    <p class="mx-auto text-center text-base text-brand-green pb-10">
+    <p class="mx-auto text-center text-base text-brand-green pb-10 px-4">
       {{ subtitle }}
     </p>
   </div>
