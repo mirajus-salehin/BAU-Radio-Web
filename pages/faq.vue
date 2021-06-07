@@ -1,22 +1,50 @@
 <template>
-  <section class="w-full md:w-3/5 mx-auto p-8 min-h-screen">
-    <div class="shadow-md">
-      <faqcard
-        v-for="question in questions"
-        :key="question"
-        :q="question.qs"
-        :answer="question.ans"
-        :id="question.id"
-        :for="question.for"
-      />
+  <section class="mt-10">
+    <section class="md:flex space-y-2 md:space-x-1 mt-10">
+      <div class="w-full md:w-2/5 m-auto">
+        <h1 class="heading-text">Still got any question?</h1>
+        <p
+          class="
+            pt-4
+            md:pt-10
+            mr-10
+            ml-10
+            text-justify
+            md:text-left
+            leading-loose
+          "
+        >
+          Check out some common questions about us. Hope you will find your
+          answer.
+        </p>
+      </div>
+      <div class="w-full md:w-3/5 px-2"><svg4 class="mx-auto" /></div>
+    </section>
+    <div class="w-full md:w-3/5 mx-auto p-8">
+      <div class="mx-auto mb-10 mt-10">
+        <h1 class="mx-auto text-center font-bold text-3xl lg:text-5xl">
+          Frequently Asked Questions
+        </h1>
+      </div>
+      <div class="shadow-md">
+        <faqcard
+          v-for="question in questions"
+          :key="question"
+          :q="question.qs"
+          :answer="question.ans"
+          :id="question.id"
+          :for="question.for"
+        />
+      </div>
     </div>
   </section>
 </template>
 
 <script>
 import faqcard from "~/components/faqcard.vue";
+import svg4 from "~/components/svg4.vue";
 export default {
-  components: { faqcard },
+  components: { faqcard, svg4 },
   data() {
     return {
       questions: [
@@ -62,5 +90,8 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.heading-text {
+  @apply font-bold text-3xl lg:text-5xl py-4 md:py-8 px-10 md:pl-10 tracking-widest;
+}
 </style>
