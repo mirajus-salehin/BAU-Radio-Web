@@ -1,11 +1,11 @@
 <template>
   <section>
-    <h2 class="font-bold text-2xl">Latest Posts</h2>
+    <h2 class="mt-10 font-bold text-3xl lg:text-5xl py-4 md:py-8 px-10 md:pl-10 tracking-widest mx-auto text-center">Latest Posts</h2>
     <div
       class="
         grid grid-cols-1
         md:grid-cols-2
-        lg:grid-cols-3
+        xl:grid-cols-3
         gap-6
         p-6
         min-h-screen
@@ -20,7 +20,7 @@
                 {{ article.title }}
               </h3>
               <p class="text-base font-light">{{ article.description }}</p>
-              <div class="pt-4 flex flex-col md:flex-row gap-2 md:gap-6">
+              <div class="pt-4 flex flex-col md:flex-row gap-2 md:gap-6 flex-wrap">
                 <div class="flex gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
