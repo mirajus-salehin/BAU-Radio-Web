@@ -12,7 +12,7 @@
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/mirajus-salehin/BAU-Radio-Web)
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/mirajus-salehin/BAU-Radio-Web/blob/master/LICENSE)
-
+[![CodeFactor](https://www.codefactor.io/repository/github/mirajus-salehin/bau-radio-web/badge)](https://www.codefactor.io/repository/github/mirajus-salehin/bau-radio-web)
 
 # Tech stack
 <img alt="NodeJS" src="https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=node-dot-js&logoColor=white"/>
