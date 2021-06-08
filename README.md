@@ -5,6 +5,8 @@
 ![Lines of code](https://img.shields.io/tokei/lines/github/mirajus-salehin/BAU-Radio-Web)
 ![GitHub last commit](https://img.shields.io/github/last-commit/mirajus-salehin/BAU-Radio-Web)
 ![GitHub deployments](https://img.shields.io/github/deployments/mirajus-salehin/BAU-Radio-Web/Production)
+[![CodeQL](https://github.com/mirajus-salehin/BAU-Radio-Web/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/mirajus-salehin/BAU-Radio-Web/actions/workflows/codeql-analysis.yml)
+
 # Dependencies 
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/mirajus-salehin/BAU-Radio-Web/nuxt)
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/mirajus-salehin/BAU-Radio-Web/@nuxt/content)
