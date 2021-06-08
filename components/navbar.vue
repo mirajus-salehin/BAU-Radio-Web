@@ -4,10 +4,10 @@
       <div class="invisible">BAU Radio</div>
       <div class="hidden md:flex justify-between space-x-4 pr-6" ref="menu">
         <nuxt-link to="/" class="nav-item" exact="">Home</nuxt-link>
-        <nuxt-link to="ourteam" class="nav-item" exact="">Our team</nuxt-link>
-        <nuxt-link to="shows" class="nav-item" exact="">Shows</nuxt-link>
-        <nuxt-link to="contact" class="nav-item" exact="">Contact us</nuxt-link>
-        <nuxt-link to="blog" class="nav-item" exact="">Blog</nuxt-link>
+        <nuxt-link to="/ourteam" class="nav-item" exact="">Our team</nuxt-link>
+        <nuxt-link to="/blog" class="nav-item" exact="">Blog</nuxt-link>
+        <nuxt-link to="/contact" class="nav-item" exact="">Contact us</nuxt-link>
+        <nuxt-link to="/faq" class="nav-item" exact="">FAQ</nuxt-link>
       </div>
 
       <div class="flex md:hidden button">
@@ -32,9 +32,9 @@
       <div class="flex flex-col gap-2">
         <nuxt-link to="/" class="mobile-nav" exact="">Home</nuxt-link>
         <nuxt-link to="/ourteam" class="mobile-nav" exact="">Our team</nuxt-link>
-        <nuxt-link to="/shows" class="mobile-nav" exact="">Shows</nuxt-link>
-        <nuxt-link to="/contact" class="mobile-nav" exact="">Contact us</nuxt-link>
         <nuxt-link to="/blog" class="mobile-nav" exact="">Blog</nuxt-link>
+        <nuxt-link to="/contact" class="mobile-nav" exact="">Contact us</nuxt-link>
+        <nuxt-link to="/FAQ" class="mobile-nav" exact="">FAQ</nuxt-link>
       </div>
     </div>
   </nav>
