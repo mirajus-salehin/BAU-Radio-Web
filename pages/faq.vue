@@ -45,6 +45,9 @@ import faqcard from "~/components/faqcard.vue";
 import svg4 from "~/components/svg4.vue";
 export default {
   components: { faqcard, svg4 },
+ head() {
+    return { title: "FAQ" };
+  },
   data() {
     return {
       questions: [
