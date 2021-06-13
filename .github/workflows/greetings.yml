@@ -1,0 +1,22 @@
+name: Greetings
+
+on:
+  pull_request:
+    branches:
+    - main
+  issues:
+    branches:
+      - main
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Thank you for addressing the issue. I will make sure that it get fixed as soon as possible.'
+        pr-message: 'Thank you for the PR :heart:. I will review your chnages as soon as possible and make sure it is compatible with our website. Stay tuned'

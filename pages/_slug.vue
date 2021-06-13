@@ -12,7 +12,31 @@ export default {
   async asyncData({ $content, params }) {
     const article = await $content("blog", params.slug).fetch();
 
-    return { article };
+    return { article: article };
+  },
+  head() {
+    return {
+      title: this.article.title,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Read more about this blog post",
+        },
+        { hid: "og:title", name: "og:title", content: this.article.title },
+        {
+          hid: "og:description",
+          name: "og:description",
+          content: "Official blog site of BAU Radio",
+        },
+        {
+          hid: "og:image",
+          name: "og:image",
+          content: "https://i.imgur.com/qFwf99g.png",
+        },
+        { hid: "og:type", name: "og:type", content: "article" },
+      ],
+    };
   },
 };
 </script>
