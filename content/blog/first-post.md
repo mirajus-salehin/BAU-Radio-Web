@@ -3,6 +3,7 @@ title: My first blog post
 description: Welcome to my first blog post using the content module.
 slug: first-post
 read: 2 min read
+img: test-img.png
 date: 4 Jun 2021
 ---
 

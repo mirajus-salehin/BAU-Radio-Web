@@ -2,7 +2,9 @@
   "name": "bau-radio-web",
   "version": "1.0.0",
   "private": true,
-  "keywords": ["bau-radio"],
+  "keywords": [
+    "bau-radio"
+  ],
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -11,6 +13,7 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
+    "@tailwindcss/aspect-ratio": "^0.2.1",
     "@tailwindcss/typography": "^0.4.1",
     "core-js": "^3.14.0",
     "nuxt": "^2.15.3"

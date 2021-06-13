@@ -1,6 +1,22 @@
 <template>
   <section>
-    <h2 class="mt-10 font-bold text-3xl lg:text-5xl py-4 md:py-8 px-10 md:pl-10 tracking-widest mx-auto text-center">Latest Posts</h2>
+    <h2
+      class="
+        mt-10
+        font-bold
+        text-3xl
+        lg:text-5xl
+        py-4
+        md:py-8
+        px-10
+        md:pl-10
+        tracking-widest
+        mx-auto
+        text-center
+      "
+    >
+      Latest Posts
+    </h2>
     <div
       class="
         grid grid-cols-1
@@ -14,13 +30,17 @@
       <div v-for="article of articles" :key="article">
         <nuxt-link :to="{ name: 'slug', params: { slug: article.slug } }">
           <div class="card flex flex-col space-y-4">
-            <div class="h-72 w-full bg-gray-100 rounded-md"></div>
+            <div>
+              <img :src="require(`~/assets/resources/${article.img}`)" alt="">
+            </div>
             <div class="my-auto px-6">
               <h3 class="text-brand-green text-xl font-semibold py-4">
                 {{ article.title }}
               </h3>
               <p class="text-base font-light">{{ article.description }}</p>
-              <div class="pt-4 flex flex-col md:flex-row gap-2 md:gap-6 flex-wrap">
+              <div
+                class="pt-4 flex flex-col md:flex-row gap-2 md:gap-6 flex-wrap"
+              >
                 <div class="flex gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -66,11 +86,25 @@
 export default {
   async asyncData({ $content, params }) {
     const articles = await $content("blog", params.slug)
-      .only(["title", "description", "slug", "read", "date"])
+      .only(["title", "description", "slug", "read", "date","img"])
       .sortBy("date", "asc")
       .fetch();
     return {
       articles,
+    };
+  },
+  head() {
+    return {
+      title: "Blog",
+      meta: [
+        { hid: "description", name: "description", content: "BAU Radio Blog" },
+        { hid: "og:title", name: "og:title", content: "BAU Radio Blog" },
+        {
+          hid: "og:description",
+          name: "og:description",
+          content: "Official blog site of BAU Radio. Get the latest news about BAU Radio here.",
+        },
+      ],
     };
   },
 };

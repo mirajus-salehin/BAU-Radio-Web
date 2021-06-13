@@ -3,7 +3,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'bau-radio-web',
+    title: 'BAU Radio - An online radio service',
     htmlAttrs: {
       lang: 'en'
     },
@@ -17,7 +17,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: ''
+        content: 'An online radio service in Bangladesh Agrciltural University that is run by the students, for the students, to the students. '
       }
     ],
     link: [{

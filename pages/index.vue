@@ -19,11 +19,7 @@
           BAU Radio is an online radio station of Bangladesh Agricultural
           University, administrated by its student.The very first online
           streaming platform has come to light in the <b>60-years history</b> of
-          BAU. The dream has come true with a group of dedicated individuals.
-          The Passion did make history. It will provide essential daily news
-          from BAU's various locations. On the other hand, relieves monotony and
-          gives peace to BAU residents with its academic and amusing
-          programming.
+          BAU. 
         </p>
         <div class="ml-10 mt-4 mb-4">
           <button class="btn">Tune in</button>
