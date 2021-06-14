@@ -19,7 +19,7 @@
           BAU Radio is an online radio station of Bangladesh Agricultural
           University, administrated by its student.The very first online
           streaming platform has come to light in the <b>60-years history</b> of
-          BAU. 
+          BAU.
         </p>
         <div class="ml-10 mt-4 mb-4">
           <button class="btn">Tune in</button>
@@ -95,6 +95,19 @@ export default {
     return {
       title:
         "BAU Radio - An online radio service Of Bangladesh Agricultural University",
+      meta: [
+        { hid: "og:title", name: "og:title", content: "BAU Radio" },
+        {
+          hid: "og:description",
+          name: "og:description",
+          content: "Official blog site of BAU Radio",
+        },
+        {
+          hid: "og:image",
+          name: "og:image",
+          content: "https://i.imgur.com/nh4cmMm.png",
+        },
+      ],
     };
   },
   data() {

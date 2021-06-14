@@ -18,6 +18,11 @@ export default {
         hid: 'description',
         name: 'description',
         content: 'An online radio service in Bangladesh Agrciltural University that is run by the students, for the students, to the students. '
+      },
+      {
+        hid: "og:image",
+        name: "og:image",
+        content: "https://i.imgur.com/nh4cmMm.png",
       }
     ],
     link: [{
