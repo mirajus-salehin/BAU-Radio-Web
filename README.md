@@ -32,6 +32,7 @@
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/mirajus-salehin/BAU-Radio-Web/@nuxt/content)
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/mirajus-salehin/BAU-Radio-Web/@tailwindcss/typography)
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/mirajus-salehin/BAU-Radio-Web/core-js)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/mirajus-salehin/BAU-Radio-Web/@tailwindcss/aspect-ratio)
 
 # Dev dependencies
 ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/mirajus-salehin/BAU-Radio-Web/dev/postcss)
