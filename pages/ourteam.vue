@@ -20,13 +20,15 @@
         mt-6
       "
     >
-      <teamcard
-        v-for="team in teams"
-        :key="team"
-        :name="team.name"
-        :logo="team.logo"
-        :subtitle="team.subtitle"
-      />
+      <div v-for="member of members" :key="member">
+        <nuxt-link :to="{ name: 'team', params: { team: member.slug } }">
+          <teamcard
+            :name="member.teamName"
+            :logo="member.logo"
+            :subtitle="member.subtitle"
+          />
+        </nuxt-link>
+      </div>
     </div>
   </section>
 </template>
@@ -34,69 +36,17 @@
 <script>
 import teamcard from "@/components/teamcard";
 export default {
-  components: teamcard,
+  components: { teamcard },
   head() {
     return { title: "Team" };
   },
-  data() {
+  async asyncData({ $content }) {
+    const members = await $content("team")
+      .only(["teamName", "logo", "subtitle", "slug"])
+      .fetch();
+
     return {
-      teams: [
-        {
-          name: "RJ's Corner",
-          subtitle: "The voice of BAU Radio",
-          logo: "/team/logos/logo_rj.svg",
-        },
-        {
-          name: "Human Resource",
-          subtitle: "The man behind every decision",
-          logo: "/team/logos/logo_hr.svg",
-        },
-        {
-          name: "Content Writer",
-          subtitle: "The brain behind every speech",
-          logo: "/team/logos/logo_cw.svg",
-        },
-        {
-          name: "Graphics Designer",
-          subtitle: "The artist of every color",
-          logo: "/team/logos/logo_gd.svg",
-        },
-        {
-          name: "Social Media Managment",
-          subtitle: "The face of BAU Radio",
-          logo: "/team/logos/logo_mm.svg",
-        },
-        {
-          name: "Event Managment",
-          subtitle: "The hard workers of every event",
-          logo: "/team/logos/logo_em.svg",
-        },
-        {
-          name: "Operations",
-          subtitle: "The brain of BAU Radio",
-          logo: "/team/logos/logo_os.svg",
-        },
-        {
-          name: "Finance",
-          subtitle: "The cunnings of managment",
-          logo: "/team/logos/logo_f.svg",
-        },
-        {
-          name: "Marketing",
-          subtitle: "The promoter of business",
-          logo: "/team/logos/logo_m.svg",
-        },
-        {
-          name: "Video Editing",
-          subtitle: "The manipulators of emotion",
-          logo: "/team/logos/logo_ve.svg",
-        },
-        {
-          name: "IT",
-          subtitle: "The geeks of technolgy",
-          logo: "/team/logos/logo_it.svg",
-        },
-      ],
+      members,
     };
   },
 };

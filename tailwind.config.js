@@ -1,5 +1,5 @@
 module.exports = {
-  mode:"jit",
+  mode: "jit",
   purge: {
     content: [
       `components/**/*.{vue,js}`,
@@ -12,16 +12,19 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      colors:{
-        "brand-green":'#297880',
-        "brand-dark":'#263238',
-        "brand-black":"#204E52",
-        "brand-green-lighter":"#86BAB6"
+      colors: {
+        "brand-green": '#297880',
+        "brand-dark": '#263238',
+        "brand-black": "#204E52",
+        "brand-green-lighter": "#86BAB6"
       }
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/aspect-ratio")
+  ],
 }

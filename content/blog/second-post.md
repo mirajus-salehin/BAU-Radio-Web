@@ -3,6 +3,7 @@ title: My second blog post
 description: Welcome to my second blog post using the content module.
 slug: second-post
 read: 2 min read
+img: test-img.png
 date: 6 Jun 2021
 ---
 

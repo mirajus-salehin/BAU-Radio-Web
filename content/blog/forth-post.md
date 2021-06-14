@@ -3,6 +3,7 @@ title: My forth blog post
 description: Welcome to my forth blog post using the content module.
 slug: forth-post
 read: 10 min read
+img: test-img.png
 date: 7 Jun 2021
 ---
 

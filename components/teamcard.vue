@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full hover:shadow-lg hover:border-2 hover:cursor-pointer transition-all duration-300 rounded-xl transform hover:-translate-y-2"
+    class="min-w-max hover:shadow-lg hover:border-2 hover:cursor-pointer transition-all duration-300 rounded-xl transform hover:-translate-y-2 p-10"
   >
     <img :src="logo" alt="" class="mx-auto p-10" />
     <p class="font-bold text-2xl mx-auto text-center">

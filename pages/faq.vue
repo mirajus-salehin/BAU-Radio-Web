@@ -45,7 +45,7 @@ import faqcard from "~/components/faqcard.vue";
 import svg4 from "~/components/svg4.vue";
 export default {
   components: { faqcard, svg4 },
- head() {
+  head() {
     return { title: "FAQ" };
   },
   data() {
@@ -54,38 +54,38 @@ export default {
         {
           id: "tab-multi-one",
           for: "tab-multi-one",
-          qs: "Question number 1",
-          ans: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.",
+          qs: "What is BAU Radio?",
+          ans: "BAU Radio is a student-run Internet streaming service from Bangladesh Agricultural University. It was founded by a group of hardworking individuals.",
         },
         {
           id: "tab-multi-two",
           for: "tab-multi-two",
-          qs: "Question number 2",
-          ans: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.",
+          qs: "Is it completley online?",
+          ans: "Yes, BAU Radio is entirely a web-based service. You may listen to our shows for free at any time and from anywhere.",
         },
         {
           id: "tab-multi-three",
           for: "tab-multi-three",
-          qs: "Question number 3",
-          ans: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.",
+          qs: "What is your vision?",
+          ans: "BAU Radio's moto is 'Echoes of Dreams,' which corresponds to our vision. We have a goal of becoming the voice of every BAU student. We have a goal of creating a platform for BAU students to exchange their ideas with one another.",
         },
         {
           id: "tab-multi-four",
           for: "tab-multi-four",
-          qs: "Question number 4",
-          ans: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.",
+          qs: "What is your mission?",
+          ans: "Our goal is to propagate the BAU way of life across the country.",
         },
         {
           id: "tab-multi-five",
           for: "tab-multi-five",
-          qs: "Question number 5",
-          ans: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.",
+          qs: "Are you available for paid collaboration?",
+          ans: "Yes, we would be delighted to collaborate with you at any moment. For compensated partnership, please contact us.",
         },
         {
           id: "tab-multi-six",
           for: "tab-multi-six",
-          qs: "Question number 6",
-          ans: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.",
+          qs: "Is there any opportunity for working with you?",
+          ans: "Yes, we'd love to have someone as talented as you join our team. Please keep an eye out for job openings on our blogs and social media.",
         },
       ],
     };
