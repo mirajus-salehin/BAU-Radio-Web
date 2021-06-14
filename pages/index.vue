@@ -22,7 +22,9 @@
           BAU.
         </p>
         <div class="ml-10 mt-4 mb-4">
+          <a href="https://www.youtube.com/channel/UCqbb6Kk9_tZeIUtI82B6FFg" target="_blank">
           <button class="btn">Tune in</button>
+          </a>
         </div>
       </div>
       <div class="w-full md:w-3/5"><svg1 class="mx-auto" /></div>
@@ -41,6 +43,7 @@
           lg:grid-cols-4
           place-items-center
           justify-items-center
+          items-start
           gap-4
         "
       >
@@ -76,7 +79,11 @@
           university and others.
         </p>
         <div class="ml-10 mt-4 mb-4">
-          <button class="btn mx-auto">Contact us</button>
+         <nuxt-link to="contact">
+           <button class="btn">
+             Contact us
+           </button>
+           </nuxt-link>
         </div>
       </div>
       <div class="w-full md:w-3/5"><svg3 /></div>
@@ -100,7 +107,8 @@ export default {
         {
           hid: "og:description",
           name: "og:description",
-          content: "BAU Radio is an online radio station of Bangladesh Agricultural University, administrated by its student.The very first online streaming platform has come to light in the 60-years history of BAU.",
+          content:
+            "BAU Radio is an online radio station of Bangladesh Agricultural University, administrated by its student.The very first online streaming platform has come to light in the 60-years history of BAU.",
         },
         {
           hid: "og:image",
@@ -116,25 +124,25 @@ export default {
         {
           title: "First ever",
           subtitle:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget condimentum pulvinar.",
+            "Bangladesh Agricultural University's first campus online radio platform, which debuted on 13th June 2021 & harmonized some passionate students' long-held dreams",
           logoDir: "/logos/who card logos/firstever.svg",
+        },
+        {
+          title: "Live update",
+          subtitle:
+            "We broadcast our students' activities, creative ideas, and untold thoughts from a 1200-acre campus to every corner of our country.",
+          logoDir: "/logos/who card logos/update.svg",
         },
         {
           title: "Made with love",
           subtitle:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget condimentum pulvinar.",
+            "With our creative and unparalleled content, we are aiming to be the best national campus radio platform in Bangladesh.",
           logoDir: "/logos/who card logos/love.svg",
         },
         {
           title: "Your voice",
           subtitle:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget condimentum pulvinar.",
-          logoDir: "/logos/who card logos/voice.svg",
-        },
-        {
-          title: "Your voice",
-          subtitle:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget condimentum pulvinar.",
+            "We broadcast the voice of the students of BAU online. So from every campus and around the world can listen your 'Echo of the Dreams'",
           logoDir: "/logos/who card logos/voice.svg",
         },
       ],
