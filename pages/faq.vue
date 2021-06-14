@@ -46,7 +46,23 @@ import svg4 from "~/components/svg4.vue";
 export default {
   components: { faqcard, svg4 },
   head() {
-    return { title: "FAQ" };
+    return {
+      title: "FAQ",
+      meta: [
+        { hid: "og:title", name: "og:title", content: "FAQ" },
+        {
+          hid: "og:description",
+          name: "og:description",
+          content:
+            "Frequently asked questions about BAU Radio.",
+        },
+        {
+          hid: "og:image",
+          name: "og:image",
+          content: "https://i.imgur.com/nh4cmMm.png",
+        },
+      ],
+    };
   },
   data() {
     return {
@@ -60,7 +76,7 @@ export default {
         {
           id: "tab-multi-two",
           for: "tab-multi-two",
-          qs: "Is it completley online?",
+          qs: "Is it completly online?",
           ans: "Yes, BAU Radio is entirely a web-based service. You may listen to our shows for free at any time and from anywhere.",
         },
         {

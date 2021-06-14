@@ -155,6 +155,19 @@ export default {
   head() {
     return {
       title: "Contact",
+      meta: [
+        { hid: "og:title", name: "og:title", content: "Contact" },
+        {
+          hid: "og:description",
+          name: "og:description",
+          content: "Contact BAU Radio.",
+        },
+        {
+          hid: "og:image",
+          name: "og:image",
+          content: "https://i.imgur.com/nh4cmMm.png",
+        },
+      ],
     };
   },
 };

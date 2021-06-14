@@ -100,7 +100,7 @@ export default {
         {
           hid: "og:description",
           name: "og:description",
-          content: "Official blog site of BAU Radio",
+          content: "BAU Radio is an online radio station of Bangladesh Agricultural University, administrated by its student.The very first online streaming platform has come to light in the 60-years history of BAU.",
         },
         {
           hid: "og:image",
