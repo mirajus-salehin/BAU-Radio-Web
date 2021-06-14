@@ -1,0 +1,28 @@
+{
+  "teamName": "Graphics Designer",
+  "subtitle": "The artist of every color",
+  "logo": "/team/logos/logo_gd.svg",
+  "slug": "graphics-designer-team",
+  "members": [
+    {
+      "name": "Jahidul Islam",
+      "desc": "I like to explore and do something creative",
+      "img": "https://i.imgur.com/I25oo6J.jpg"
+    },
+    {
+      "name": "Niladri Shekhar Das Nobel",
+      "desc": "Nothing can be described me cause I am still trying to find myself",
+      "img": "https://i.imgur.com/uWFrFXf.jpg"
+    },
+    {
+      "name": "Safiara Nusrat Nova",
+      "desc": "A girl with a wide smile!,I think volunteering makes me proud. Painting and reading books are enough for me to be happy!",
+      "img": "https://i.imgur.com/3zSO3O0.jpg"
+    },
+    {
+      "name": "Smrety Kona Das",
+      "desc": "",
+      "img": "https://i.imgur.com/vldWQeE.jpg"
+    }
+  ]
+}

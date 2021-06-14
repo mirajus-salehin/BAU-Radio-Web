@@ -1,0 +1,18 @@
+{
+  "teamName": "Marketing",
+  "subtitle": "The geeks of technolgy",
+  "logo": "/team/logos/logo_it.svg",
+  "slug": "marketing-team",
+  "members": [
+    {
+      "name": "Khoshnur Yasmin Ratna",
+      "desc": "",
+      "img": "https://i.imgur.com/IwiuUrv.jpg"
+    },
+    {
+      "name": "Bijoy Kundu",
+      "desc": "This is Bijoy kundu, he has a great interest in pet sector.He also loves to keep pet.He is a undergraduate  veterinary student  & have a big dream to establish himself as a famous veterinary doctor.",
+      "img": "https://i.imgur.com/POmIRla.jpg"
+    }
+  ]
+}
