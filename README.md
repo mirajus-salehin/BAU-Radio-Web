@@ -4,12 +4,15 @@
 ![GitHub deployments](https://img.shields.io/github/deployments/mirajus-salehin/BAU-Radio-Web/Production)
 [![CodeQL](https://github.com/mirajus-salehin/BAU-Radio-Web/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/mirajus-salehin/BAU-Radio-Web/actions/workflows/codeql-analysis.yml)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+![GitHub issues](https://img.shields.io/github/issues/mirajus-salehin/BAU-Radio-Web)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/mirajus-salehin/BAU-Radio-Web)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/mirajus-salehin/BAU-Radio-Web)
+
 
 # Repo details
 ![GitHub repo size](https://img.shields.io/github/repo-size/mirajus-salehin/BAU-Radio-Web)
 ![Lines of code](https://img.shields.io/tokei/lines/github/mirajus-salehin/BAU-Radio-Web)[
 ![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/mirajus-salehin/BAU-Radio-Web)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/mirajus-salehin/BAU-Radio-Web)
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/mirajus-salehin/BAU-Radio-Web/blob/master/LICENSE)
 [![CodeFactor](https://www.codefactor.io/repository/github/mirajus-salehin/bau-radio-web/badge)](https://www.codefactor.io/repository/github/mirajus-salehin/bau-radio-web)
