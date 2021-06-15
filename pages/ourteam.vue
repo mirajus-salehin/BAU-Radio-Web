@@ -20,15 +20,13 @@
         mt-6
       "
     >
-      <div v-for="member of members" :key="member">
-        <nuxt-link :to="{ name: 'team', params: { team: member.slug } }">
-          <teamcard
-            :name="member.teamName"
-            :logo="member.logo"
-            :subtitle="member.subtitle"
-          />
-        </nuxt-link>
-      </div>
+      <nuxt-link v-for="team in teams" :key="team" :to="team.page">
+        <teamcard
+          :name="team.name"
+          :logo="team.logo"
+          :subtitle="team.subtitle"
+        />
+      </nuxt-link>
     </div>
   </section>
 </template>
@@ -36,33 +34,74 @@
 <script>
 import teamcard from "@/components/teamcard";
 export default {
-  components: { teamcard },
+  components: teamcard,
   head() {
+    return { title: "Team" };
+  },
+  data() {
     return {
-      title: "Team",
-      meta: [
-        { hid: "og:title", name: "og:title", content: "Team members of BAU Radio" },
+      teams: [
         {
-          hid: "og:description",
-          name: "og:description",
-          content:
-            "Meet the fanatics of BAU Radio who have worked hard to bring BAU Radio into reality.",
+          name: "Human Resource",
+          subtitle: "The man behind every decision",
+          logo: "/team/logos/logo_hr.svg",
+          page: "human-resource-team",
         },
         {
-          hid: "og:image",
-          name: "og:image",
-          content: "https://i.imgur.com/nh4cmMm.png",
+          name: "Content Writer",
+          subtitle: "The brain behind every speech",
+          logo: "/team/logos/logo_cw.svg",
+          page: "content-writer-team",
+        },
+        {
+          name: "Graphics Designer",
+          subtitle: "The artist of every color",
+          logo: "/team/logos/logo_gd.svg",
+          page: "graphics-designer-team",
+        },
+        {
+          name: "Social Media Management",
+          subtitle: "The face of BAU Radio",
+          logo: "/team/logos/logo_mm.svg",
+          page: "social-media-management-team",
+        },
+        {
+          name: "Event Management",
+          subtitle: "The hard workers of every event",
+          logo: "/team/logos/logo_em.svg",
+          page: "event-mangement-team",
+        },
+        {
+          name: "Strategy and planning",
+          subtitle: "The brain of BAU Radio",
+          logo: "/team/logos/logo_os.svg",
+          page: "strategy-and-planning-team",
+        },
+        {
+          name: "Finance",
+          subtitle: "The cunnings of managment",
+          logo: "/team/logos/logo_f.svg",
+          page: "finance-team",
+        },
+        {
+          name: "Marketing",
+          subtitle: "The promoter of business",
+          logo: "/team/logos/logo_m.svg",
+          page: "marketing-team",
+        },
+        {
+          name: "Video Editing",
+          subtitle: "The manipulators of emotion",
+          logo: "/team/logos/logo_ve.svg",
+          page: "video-editing-team",
+        },
+        {
+          name: "IT",
+          subtitle: "The geeks of technolgy",
+          logo: "/team/logos/logo_it.svg",
+          page: "information-and-technology-team",
         },
       ],
-    };
-  },
-  async asyncData({ $content }) {
-    const members = await $content("team")
-      .only(["teamName", "logo", "subtitle", "slug"])
-      .fetch();
-
-    return {
-      members,
     };
   },
 };
