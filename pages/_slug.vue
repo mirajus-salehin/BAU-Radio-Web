@@ -32,7 +32,7 @@ export default {
         {
           hid: "og:image",
           name: "og:image",
-          content: "https://i.imgur.com/qFwf99g.png",
+          content: this.article.img,
         },
         { hid: "og:type", name: "og:type", content: "article" },
       ],

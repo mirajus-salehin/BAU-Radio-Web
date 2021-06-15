@@ -17,7 +17,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'An online radio service in Bangladesh Agrciltural University that is run by the students, for the students, to the students. '
+        content: 'BAU Radio is an online radio station of Bangladesh Agricultural University, administrated by its student.The very first online streaming platform has come to light in the 60-years history of BAU. '
       },
       {
         hid: "og:image",

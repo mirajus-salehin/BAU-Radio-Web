@@ -38,7 +38,23 @@ import teamcard from "@/components/teamcard";
 export default {
   components: { teamcard },
   head() {
-    return { title: "Team" };
+    return {
+      title: "Team",
+      meta: [
+        { hid: "og:title", name: "og:title", content: "Team members of BAU Radio" },
+        {
+          hid: "og:description",
+          name: "og:description",
+          content:
+            "Meet the fanatics of BAU Radio who have worked hard to bring BAU Radio into reality.",
+        },
+        {
+          hid: "og:image",
+          name: "og:image",
+          content: "https://i.imgur.com/nh4cmMm.png",
+        },
+      ],
+    };
   },
   async asyncData({ $content }) {
     const members = await $content("team")
