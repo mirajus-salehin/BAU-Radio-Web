@@ -39,7 +39,7 @@
               </h3>
               <p class="text-base font-light">{{ article.description }}</p>
               <div
-                class="pt-4 flex flex-col md:flex-row gap-2 md:gap-6 flex-wrap"
+                class="pt-4 flex flex-col md:flex-row gap-2 md:gap-6 flex-wrap justify-items-center"
               >
                 <div class="flex gap-2">
                   <svg
