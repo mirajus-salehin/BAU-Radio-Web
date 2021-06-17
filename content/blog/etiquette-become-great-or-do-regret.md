@@ -5,9 +5,10 @@ slug: etiquette-become-great-or-do-regret
 read: 2 min read
 img: etiquette-great-or-do-regret.png
 date: 17 Jun 2021
+titleImage: "https://i.imgur.com/jDzreNr.png"
 ---
 
-![enter image description here](https://i.imgur.com/jDzreNr.png)
+![Title Image](https://i.imgur.com/jDzreNr.png)
 
 ## *Etiquette : Become Great or Do Regret*
 

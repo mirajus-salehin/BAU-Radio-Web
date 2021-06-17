@@ -32,9 +32,10 @@ export default {
         {
           hid: "og:image",
           name: "og:image",
-          content: this.article.img,
+          content: this.article.titleImage,
         },
         { hid: "og:type", name: "og:type", content: "article" },
+        { hid: "fb:app_id", name: "fb:app_id", content: "790052285034541" },
       ],
     };
   },
