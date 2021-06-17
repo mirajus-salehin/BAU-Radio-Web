@@ -173,7 +173,7 @@
             />
           </svg>
           <p class="font-semibold text-xl">Call us</p>
-          <p class="font-light">hr.bauradio@gmail.com</p>
+          <p class="font-light">+8801784-581634</p>
         </div>
         <div
           class="
@@ -197,7 +197,7 @@
             <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
           </svg>
           <p class="font-semibold text-xl">Email us</p>
-          <p class="font-light">hr.bauradio@gmail.com</p>
+          <p class="font-light">bauradio.official@gmail.com</p>
         </div>
       </div>
     </div>
