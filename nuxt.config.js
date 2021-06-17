@@ -1,5 +1,5 @@
 export default {
-  target:"static",
+  target: "static",
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -26,11 +26,10 @@ export default {
       }
     ],
     link: [{
-        rel: 'icon',
-        type: 'image/x-icon',
-        href: '/favicon.ico'
-      }
-    ]
+      rel: 'icon',
+      type: 'image/x-icon',
+      href: '/favicon.ico'
+    }]
   },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
@@ -47,12 +46,13 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-analytics',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-     '@nuxt/image',
-     '@nuxt/content'
+    '@nuxt/image',
+    '@nuxt/content'
   ],
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
@@ -61,5 +61,9 @@ export default {
     configPath: 'tailwind.config.js',
     exposeConfig: false,
     config: {}
-  }
+  },
+  googleAnalytics: {
+    id: 'G-RC5LJBWHTC' // or use process.env.GOOGLE_ANALYTICS_ID
+  },
+
 }

@@ -22,8 +22,11 @@
           BAU.
         </p>
         <div class="ml-10 mt-4 mb-4">
-          <a href="https://www.youtube.com/channel/UCqbb6Kk9_tZeIUtI82B6FFg" target="_blank">
-          <button class="btn">Tune in</button>
+          <a
+            href="https://www.youtube.com/channel/UCqbb6Kk9_tZeIUtI82B6FFg"
+            target="_blank"
+          >
+            <button class="btn" v-on:click="track">Tune in</button>
           </a>
         </div>
       </div>
@@ -79,11 +82,9 @@
           university and others.
         </p>
         <div class="ml-10 mt-4 mb-4">
-         <nuxt-link to="contact">
-           <button class="btn">
-             Contact us
-           </button>
-           </nuxt-link>
+          <nuxt-link to="contact">
+            <button class="btn">Contact us</button>
+          </nuxt-link>
         </div>
       </div>
       <div class="w-full md:w-3/5"><svg3 /></div>
@@ -147,6 +148,16 @@ export default {
         },
       ],
     };
+  },
+  methods: {
+    track() {
+      this.$ga.event({
+        eventCategory: "button_clicked",
+        eventAction: "click_action",
+        eventLabel: "tune_in",
+        eventValue: 123,
+      });
+    },
   },
 };
 </script>
