@@ -87,12 +87,7 @@ export default {
             name: "Maisha Mahfuj Rhidy",
             desc: "I'm passionate about solving problems and helping to improve processesI'm passionate about helping people in need, and finding them opportunities to exceed.Another One area that I’m passionate about is self-development and self-improvement in my personal life. I’m always looking to challenge myself and learn new things. That’s one reason I enjoy working in any situation. I’ve learned great communication skills, listening skills, and problem-solving skills that help me in my day-to-day work but also in my personal life in terms of confidence. I’m really passionate about reading books & being outdoors. That’s usually how I spend my weekends,I feel like I have more energy if I’ve spent some time outdoors on the weekend or read some books.",
             img: "https://i.imgur.com/WJcxvNs.jpg",
-          },
-          {
-            name: "Fahmida Islam",
-            desc: "",
-            img: "https://i.imgur.com/HPmk0tR.jpg",
-          },
+          }
         ],
       },
     };
