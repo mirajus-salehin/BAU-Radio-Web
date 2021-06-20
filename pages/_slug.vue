@@ -4,6 +4,20 @@
       :document="article"
       class="prose sm:prose-sm md:prose:md lg:prose-lg mx-auto"
     />
+    <div class="mx-auto max-w-prose mt-10">
+      <h1 class="mx-auto tracking-wide font-semibold">Tags</h1>
+      <hr class="mt-4" />
+      <div class="flex space-x-3 mt-4">
+        <div v-for="tag in article.tags" :key="tag" class="tagBadge">
+          <nuxt-link
+            :to="{ path: 'filterblog', query: { tags: tag } }"
+            class="text-brand-green font-bold"
+          >
+            {{ tag }}
+          </nuxt-link>
+        </div>
+      </div>
+    </div>
   </article>
 </template>
 
@@ -43,4 +57,7 @@ export default {
 </script>
 
 <style>
+.tagBadge {
+  @apply bg-brand-200 py-2 px-4 rounded-full;
+}
 </style>

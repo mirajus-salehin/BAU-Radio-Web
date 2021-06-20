@@ -1,12 +1,12 @@
 ---
-title: "Etiquette : Become Great or Do Regret"
+title: "Sample"
 description: "Etiquette : Become Great or Do Regret"
-slug: etiquette-become-great-or-do-regret
+slug: sample-content
 read: 2 min read
 img: etiquette-great-or-do-regret.png
 date: 17 Jun 2021
 titleImage: "https://i.imgur.com/jDzreNr.png"
-tags : ["etiquette","manner","#bauradio","sample"]
+tags : ["sample"]
 ---
 
 ![Title Image](https://i.imgur.com/jDzreNr.png)

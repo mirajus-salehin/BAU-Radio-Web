@@ -15,7 +15,7 @@
         text-center
       "
     >
-      Latest Posts
+      Posts tagged with <span>"{{ this.$route.query.tags }}"</span>
     </h2>
     <div
       class="
@@ -92,29 +92,12 @@
 
 <script>
 export default {
-  async asyncData({ $content, params }) {
-    const articles = await $content("blog", params.slug)
-      .only(["title", "description", "slug", "read", "date", "img"])
-      .sortBy("date", "asc")
+  async asyncData({ $content, route }) {
+    const articles = await $content("blog")
+      .where({ tags: { $containsAny: [route.query.tags] } })
       .fetch();
-    return {
-      articles,
-    };
-  },
-  head() {
-    return {
-      title: "Blog",
-      meta: [
-        { hid: "description", name: "description", content: "BAU Radio Blog" },
-        { hid: "og:title", name: "og:title", content: "BAU Radio Blog" },
-        {
-          hid: "og:description",
-          name: "og:description",
-          content:
-            "Official blog site of BAU Radio. Get the latest news about BAU Radio here.",
-        },
-      ],
-    };
+
+    return { articles };
   },
 };
 </script>
