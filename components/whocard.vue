@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-md px-6 mx-auto bg-white">
+  <div class="rounded-md px-6 mx-auto bg-white w-96">
     <img :src="logo" alt="" class="mx-auto p-10" />
     <p class="font-bold text-2xl mx-auto text-center">
       {{ title }}

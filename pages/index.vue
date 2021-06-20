@@ -1,7 +1,7 @@
 <template>
   <div>
     <!--intro section-->
-    <section class="md:flex space-y-2 md:space-x-1 mt-10">
+    <section class="lg:flex space-y-2 md:space-x-1 mt-10">
       <div class="w-full md:w-2/5 m-auto">
         <h1 class="title-text">BAU Radio</h1>
         <h3 class="moto">Echoes of dreams</h3>
@@ -43,7 +43,7 @@
         class="
           grid grid-cols-1
           md:grid-cols-2
-          lg:grid-cols-4
+          lg:grid-cols-2
           place-items-center
           justify-items-center
           items-start
@@ -123,27 +123,27 @@ export default {
     return {
       whos: [
         {
-          title: "First ever",
+          title: "Making history",
           subtitle:
             "Bangladesh Agricultural University's first campus online radio platform, which debuted on 13th June 2021 & harmonized some passionate students' long-held dreams",
           logoDir: "/logos/who card logos/firstever.svg",
         },
         {
-          title: "Live update",
-          subtitle:
-            "We broadcast our students' activities, creative ideas, and untold thoughts from a 1200-acre campus to every corner of our country.",
-          logoDir: "/logos/who card logos/update.svg",
-        },
-        {
-          title: "Made with love",
+          title: "Our coverage",
           subtitle:
             "With our creative and unparalleled content, we are aiming to be the best national campus radio platform in Bangladesh.",
           logoDir: "/logos/who card logos/love.svg",
         },
         {
-          title: "Your voice",
+          title: "Live update",
           subtitle:
-            "We broadcast the voice of the students of BAU online. So from every campus and around the world can listen your 'Echo of the Dreams'",
+            "In a variety of ways, we use our voices to entertain people. Our campus is presented through the experiences and stories of our students. We also broadcast our students' activities, creative ideas, and untold thoughts from a 1200-acre campus to every corner of our country.So that at the end of the day, our countrymen, as well as campus residents, can enjoy a simple burst of refreshment.",
+          logoDir: "/logos/who card logos/update.svg",
+        },
+        {
+          title: "Future landmark",
+          subtitle:
+            "We plan to reflect our BAU with fresh content. We will act as a lead-in to advertising for all facets of BAU, which will capture every student's hidden and unspoken thoughts throughout 1231 acres. We'll have a discourse, and they'll be the catalyst. With our creative and unparalleled content, we are aiming to be the best national campus radio platform in Bangladesh.",
           logoDir: "/logos/who card logos/voice.svg",
         },
       ],
