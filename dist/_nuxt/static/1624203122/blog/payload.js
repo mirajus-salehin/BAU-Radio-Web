@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/blog", (function(a,b,c,d){return {data:[{articles:[{slug:"etiquette-become-great-or-do-regret",description:a,title:a,read:b,img:c,date:d},{slug:"sample-content",description:a,title:"Sample",read:b,img:c,date:d}],_img:{}}],fetch:{},mutations:void 0}}("Etiquette : Become Great or Do Regret","2 min read","etiquette-great-or-do-regret.png","17 Jun 2021")));

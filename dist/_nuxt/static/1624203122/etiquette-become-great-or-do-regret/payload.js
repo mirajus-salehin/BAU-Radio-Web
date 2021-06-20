@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/etiquette-become-great-or-do-regret", {data:[{articles:[],_img:{}}],fetch:{},mutations:void 0});
