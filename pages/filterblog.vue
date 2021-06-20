@@ -28,7 +28,7 @@
       "
     >
       <div v-for="fa of filteredArticles" :key="fa.slug">
-        <nuxt-link :to="{ name: 'slug', params: { slug: fa.slug } }">
+        <nuxt-link :to="fa.slug">
           <div class="card flex flex-col space-y-4">
             <div>
               <img :src="require(`~/assets/resources/${fa.img}`)" alt="" />
@@ -94,7 +94,7 @@
 export default {
   async asyncData({ $content, route }) {
     const filteredArticles = await $content("blog")
-      .where({ tags: { $containsAny: [route.query.tags] } })
+      .where({ tags: { $containsAny: route.query.tags } })
       .fetch();
 
     return { filteredArticles };
