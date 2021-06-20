@@ -27,7 +27,7 @@
         min-h-screen
       "
     >
-      <div v-for="article of articles" :key="article">
+      <div v-for="article of articles" :key="article.slug">
         <nuxt-link :to="{ name: 'slug', params: { slug: article.slug } }">
           <div class="card flex flex-col space-y-4">
             <div>

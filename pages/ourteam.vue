@@ -20,7 +20,7 @@
         mt-6
       "
     >
-      <nuxt-link v-for="team in teams" :key="team" :to="team.page">
+      <nuxt-link v-for="team in teams" :key="team.page" :to="team.page">
         <teamcard
           :name="team.name"
           :logo="team.logo"

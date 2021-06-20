@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/filterblog", {data:[{filteredArticles:[],_img:{}}],fetch:{},mutations:void 0});
