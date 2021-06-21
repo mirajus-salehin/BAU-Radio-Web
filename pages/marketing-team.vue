@@ -56,7 +56,7 @@ export default {
         slug: "marketing-team",
         head:{
           name:"Sayra Islam Saki",
-          img:"https://i.imgur.com/g0pX4bm.png"
+          img:"https://i.imgur.com/VVlTWu4.jpg"
         },
         members: [
           {

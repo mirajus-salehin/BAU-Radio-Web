@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/information-and-technology-team", {data:[{_img:{}}],fetch:{},mutations:void 0});

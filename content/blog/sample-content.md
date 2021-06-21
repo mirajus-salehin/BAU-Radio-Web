@@ -4,14 +4,14 @@ description: "Etiquette : Become Great or Do Regret"
 slug: sample-content
 read: 2 min read
 img: etiquette-great-or-do-regret.png
-date: 17 Jun 2021
+date: 10 Jun 2021
 titleImage: "https://i.imgur.com/jDzreNr.png"
 tags : ["sample"]
 ---
 
 ![Title Image](https://i.imgur.com/jDzreNr.png)
 
-## *Etiquette : Become Great or Do Regret*
+## *Etiquette : Become Great or Do Regret* COPY
 
 দৃশ্যপটঃ ১
 
