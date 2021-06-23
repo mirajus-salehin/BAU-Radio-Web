@@ -44,7 +44,7 @@
           network="facebook"
           :url="'https://www.bau-radio.com/' + article.slug " 
           :title="article.title"
-          description="article.description"
+          :description="article.description"
         >
           <div
             class="
@@ -66,7 +66,7 @@
           network="linkedin"
           :url="'https://www.bau-radio.com/' + article.slug " 
           :title="article.title"
-          description="article.description"
+          :description="article.description"
         >
           <div
             class="
