@@ -29,7 +29,7 @@
       <div class="shadow-md">
         <faqcard
           v-for="question in questions"
-          :key="question"
+          :key="question.for"
           :q="question.qs"
           :answer="question.ans"
           :id="question.id"

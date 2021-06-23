@@ -6,7 +6,7 @@ read: 2 min read
 img: etiquette-great-or-do-regret.png
 date: 17 Jun 2021
 titleImage: "https://i.imgur.com/jDzreNr.png"
-tags : ["etiquette","manner","#bauradio","sample"]
+tags : ["etiquette","manner","#bauradio",]
 ---
 
 ![Title Image](https://i.imgur.com/jDzreNr.png)
