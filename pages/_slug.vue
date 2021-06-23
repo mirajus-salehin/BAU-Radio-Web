@@ -126,7 +126,7 @@ export default {
       ],
       script: [
         {
-          src: "https://kit.fontawesome.com/a076d05399.js",
+          src: "https://kit.fontawesome.com/0162ac918d.js",
           async: true,
           body: true,
         },
