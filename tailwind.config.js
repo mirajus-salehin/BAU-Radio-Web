@@ -28,7 +28,10 @@ module.exports = {
           "700": "#1b4f55",
           "800": "#143a3e",
           "900": "#0c2427"
-        }
+        },
+        "twitter":"#1da1f2",
+        "facebook":"#1877f2",
+        "linkedin":"#0077b5"
       }
     },
   },
