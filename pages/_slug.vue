@@ -42,7 +42,7 @@
         </ShareNetwork>
         <ShareNetwork
           network="facebook"
-          :url="'https://www.bau-radio.com/' + article.slug " 
+          :url="'https://www.bau-radio.com/' + article.slug"
           :title="article.title"
           :description="article.description"
         >
@@ -64,7 +64,7 @@
         </ShareNetwork>
         <ShareNetwork
           network="linkedin"
-          :url="'https://www.bau-radio.com/' + article.slug " 
+          :url="'https://www.bau-radio.com/' + article.slug"
           :title="article.title"
           :description="article.description"
         >
@@ -105,6 +105,26 @@ export default {
     return {
       title: this.article.title,
       meta: [
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: this.article.title,
+        },
+        {
+          hid: "twitter:description",
+          name: "twitter:description",
+          content: this.article.description,
+        },
+        {
+          hid: "twitter:image",
+          name: "twitter:image",
+          content: this.article.image,
+        },
+        {
+          hid: "twitter:image:alt",
+          name: "twitter:image:alt",
+          content: this.article.title,
+        },
         {
           hid: "description",
           name: "description",
