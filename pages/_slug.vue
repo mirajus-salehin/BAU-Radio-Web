@@ -17,11 +17,84 @@
           </nuxt-link>
         </div>
       </div>
+      <div class="mt-4 flex gap-x-6">
+        <ShareNetwork
+          network="twitter"
+          :url="'https://www.bau-radio.com/' + article.slug"
+          :title="article.title"
+          :description="article.description"
+        >
+          <div
+            class="
+              flex
+              justify-center
+              place-items-center
+              gap-x-2
+              bg-twitter
+              w-48
+              rounded-sm
+              p-2
+            "
+          >
+            <i class="fab fa-twitter text-white"></i>
+            <span class="text-white">Share on Twitter</span>
+          </div>
+        </ShareNetwork>
+        <ShareNetwork
+          network="facebook"
+          :url="'https://www.bau-radio.com/' + article.slug " 
+          :title="article.title"
+          description="article.description"
+        >
+          <div
+            class="
+              flex
+              justify-center
+              place-items-center
+              gap-x-2
+              bg-facebook
+              w-48
+              rounded-sm
+              p-2
+            "
+          >
+            <i class="fab fa-facebook-f text-white"></i>
+            <span class="text-white">Share on Facebook</span>
+          </div>
+        </ShareNetwork>
+        <ShareNetwork
+          network="linkedin"
+          :url="'https://www.bau-radio.com/' + article.slug " 
+          :title="article.title"
+          description="article.description"
+        >
+          <div
+            class="
+              flex
+              justify-center
+              place-items-center
+              gap-x-2
+              bg-linkedin
+              w-48
+              rounded-sm
+              p-2
+            "
+          >
+            <i class="fab fa-linkedin-in text-white"></i>
+            <span class="text-white">Share on LinkedIn</span>
+          </div>
+        </ShareNetwork>
+      </div>
     </div>
   </article>
 </template>
 
 <script>
+import VueSocialSharing from "vue-social-sharing";
+import Vue from "vue";
+
+Vue.use(VueSocialSharing);
+
 export default {
   async asyncData({ $content, params }) {
     const article = await $content("blog", params.slug).fetch();
@@ -50,6 +123,13 @@ export default {
         },
         { hid: "og:type", name: "og:type", content: "article" },
         { hid: "fb:app_id", name: "fb:app_id", content: "790052285034541" },
+      ],
+      script: [
+        {
+          src: "https://kit.fontawesome.com/a076d05399.js",
+          async: true,
+          body: true,
+        },
       ],
     };
   },
