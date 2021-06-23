@@ -56,7 +56,7 @@ export default {
         slug: "human-resource-team",
         head: {
           name: "Adia Sultana",
-          img: "https://i.imgur.com/g0pX4bm.png",
+          img: "https://i.imgur.com/mbz5Iw9.jpg",
         },
         members: [
           {
@@ -93,6 +93,16 @@ export default {
             name: "Shanjida Afroz Supti",
             desc: "Sometimes its hard to introduce myself because i know myself so well that i do not know where to start. I am a person who is positive about every aspect of life. I am just someone who is still trying to be a good human being. The thing that makes me relax is music. I am very passionate about my works and I am highly ambitious. I love meeting new people .  ",
             img: "https://i.imgur.com/u0K02cV.jpg",
+          },
+          {
+            name: "Ashikul Islam Sazzad",
+            desc: " ",
+            img: "https://i.imgur.com/2gON3uA.jpg",
+          },
+          {
+            name: "Nusaifa Ahsan",
+            desc: "",
+            img: "https://i.imgur.com/7MRfga8.jpg",
           },
         ],
       },
