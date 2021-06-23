@@ -35,7 +35,11 @@
     <!--who are we-->
     <section class="md:flex md:flex-col mt-24 mb-10">
       <div class="mx-auto mb-10">
-        <h1 class="mx-auto text-center font-bold text-3xl lg:text-5xl">
+        <h1
+          class="mx-auto text-center font-bold text-3xl lg:text-5xl"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-center"
+        >
           Who are we
         </h1>
       </div>
@@ -51,8 +55,10 @@
         "
       >
         <whocard
+          data-aos="flip-up"
+          data-aos-anchor-placement="top-center"
           v-for="who in whos"
-          :key="who"
+          :key="who.title"
           :title="who.title"
           :subtitle="who.subtitle"
           :logo="who.logoDir"
@@ -61,10 +67,28 @@
     </section>
     <!--echoes of dreams-->
     <section class="md:flex space-x-1 mt-10">
-      <div class="w-full md:w-3/5"><svg2 /></div>
+      <div
+        class="w-full md:w-3/5"
+        data-aos="fade-right"
+        data-aos-anchor-placement="top-center"
+      >
+        <svg2 />
+      </div>
       <div class="w-full md:w-2/5 m-auto text-center">
-        <h1 class="title-text">Echoes of dreams</h1>
-        <p class="pt-10 pr-4 ml-10 mr-10 leading-loose">
+        <h1
+          class="title-text"
+          id="q"
+          data-aos="fade-down"
+          data-aos-anchor-placement="top-center"
+        >
+          Echoes of dreams
+        </h1>
+        <p
+          class="pt-10 pr-4 ml-10 mr-10 leading-loose"
+          data-aos="fade-left"
+          data-aos-anchor="#q"
+          data-aos-anchor-placement="top-center"
+        >
           Evreyone is a dreamer. But not everyone has the right platform to
           share their idea. We will give you that platform. BAU Radio is your
           own platform to share your dreams. Our goal is to take "Echoes of
@@ -75,19 +99,21 @@
     <!--got anything to share-->
     <section class="md:flex space-x-1 mt-10">
       <div class="w-full md:w-2/5 m-auto">
-        <h1 class="title-text text-center">Got anything to share?</h1>
-        <p class="pt-10 px-4 mx-10 text-justify leading-loose">
+        <h1 class="title-text text-center" data-aos="fade-right">
+          Got anything to share?
+        </h1>
+        <p class="pt-10 px-4 mx-10 text-justify leading-loose" data-aos="fade-up">
           We will help you to share to the whole university. Through our
           platform you will have access to the thousands of students of our
           university and others.
         </p>
         <div class="ml-10 mt-4 mb-4">
           <nuxt-link to="contact">
-            <button class="btn">Contact us</button>
+            <button class="btn" data-aos="fade-down">Contact us</button>
           </nuxt-link>
         </div>
       </div>
-      <div class="w-full md:w-3/5"><svg3 /></div>
+      <div class="w-full md:w-3/5" data-aos="fade-left" data-aos-anchor-placement="center-center"><svg3 /></div>
     </section>
   </div>
 </template>
@@ -97,7 +123,9 @@ import svg1 from "~/components/svg1";
 import svg2 from "~/components/svg2";
 import svg3 from "~/components/svg3";
 import whocard from "~/components/whocard";
+import aos from "~/plugins/aos";
 export default {
+  mixins: [aos],
   components: { svg1, svg2, svg3, whocard },
   head() {
     return {

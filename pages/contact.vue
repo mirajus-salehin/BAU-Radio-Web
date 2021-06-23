@@ -125,6 +125,7 @@
       </h3>
       <div class="grid grid-cols-1 md:grid-cols-3 place-items-start gap-2">
         <div
+          data-aos="zoom-in"
           class="
             mx-auto
             flex flex-col
@@ -153,6 +154,7 @@
           </p>
         </div>
         <div
+          data-aos="zoom-in"
           class="
             flex flex-col
             gap-y-4
@@ -176,6 +178,7 @@
           <p class="font-light">+8801784-581634</p>
         </div>
         <div
+          data-aos="zoom-in"
           class="
             flex flex-col
             gap-y-4
