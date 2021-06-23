@@ -17,7 +17,7 @@
           </nuxt-link>
         </div>
       </div>
-      <div class="mt-4 flex gap-x-6">
+      <div class="mt-4 flex flex-wrap gap-6 justify-center">
         <ShareNetwork
           network="twitter"
           :url="'https://www.bau-radio.com/' + article.slug"
