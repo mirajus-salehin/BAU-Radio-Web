@@ -1,8 +1,8 @@
 <template>
-  <main class="mt-4 mb-4">
+  <main class="mt-24 mb-4">
     <!--intro section-->
     <section
-      class="flex flex-col justify-center lg:flex-row space-x-2 mt-10"
+      class="flex flex-col justify-center items-center lg:flex-row space-x-2 mt-10"
     >
       <div class="lg:w-2/5 m-auto px-4">
         <h1 class="title-text text-center xl:text-left">BAU Radio</h1>
@@ -22,7 +22,7 @@
           </a>
         </div>
       </div>
-      <div class="text-left lg:w-3/5"><svg1 /></div>
+      <div class="flex justify-center lg:w-3/5"><svg1 /></div>
     </section>
     <!--who are we section-->
     <section class="mt-24 mb-10">
@@ -30,7 +30,7 @@
         <h1
           class="mx-auto text-center font-bold text-3xl lg:text-5xl"
           data-aos="fade-up"
-          data-anchor-placement="center-center"
+          data-aos-anchor-placement="top-center"
         >
           Who are we
         </h1>
@@ -63,7 +63,7 @@
       <div
         class="m-auto md:w-3/5"
         data-aos="zoom-in-up"
-        data-aos-anchor-placement="top-center"
+        data-aos-anchor-placement="center-center"
       >
         <svg2 />
       </div>
@@ -87,7 +87,7 @@
           Echoes of dreams
         </h1>
         <p
-          class="leading-loose py-4"
+          class="leading-loose px-6 pt-6"
           data-aos="fade-down"
           data-anchor-placement="top-center"
         >
