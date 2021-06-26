@@ -10,7 +10,11 @@
         </div>
         <div class="mt-10">
           <div class="flex place-items-center gap-x-6 justify-center">
-            <a href="https://www.facebook.com/bauradio21" target="_blank">
+            <a
+              href="https://www.facebook.com/bauradio21"
+              target="_blank"
+              ref="noopener"
+            >
               <svg
                 class="
                   h-10
@@ -35,7 +39,11 @@
                 />
               </svg>
             </a>
-            <a href="https://www.instagram.com/bau_radio/" target="_blank">
+            <a
+              href="https://www.instagram.com/bau_radio/"
+              target="_blank"
+              ref="noopener"
+            >
               <svg
                 class="
                   h-10
@@ -61,6 +69,7 @@
             <a
               href="https://www.linkedin.com/company/bau-radio/"
               target="_blank"
+              ref="noopener"
             >
               <svg
                 class="
@@ -87,6 +96,7 @@
             <a
               href="https://www.youtube.com/channel/UCqbb6Kk9_tZeIUtI82B6FFg"
               target="_blank"
+              ref="noopener"
             >
               <svg
                 class="

@@ -47,7 +47,7 @@ export default {
 }
 /* Label formatting when open */
 .tab input:checked + label {
-  @apply text-xl p-5 border-l-2 border-brand-green-lighter bg-gray-100 text-green-700;
+  @apply text-xl p-5 border-l-2 border-brand-green-lighter bg-gray-100 text-brand-green;
 }
 /* Icon */
 .tab label::after {

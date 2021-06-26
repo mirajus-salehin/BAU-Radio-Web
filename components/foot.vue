@@ -4,10 +4,10 @@
   >
   <div>
     <div class="flex justify-center space-x-4 w-full mt-6 md:m-0">
-      <a href="https://www.facebook.com/bauradio21" target="_blank"><img src="../assets/svg/facebook.svg" alt="" class="h-10" /></a>
-      <a href="https://www.instagram.com/bau_radio/" target="_blank"><img src="../assets/svg/instagram.svg" alt="" class="h-10" /></a>
-      <a href="https://www.linkedin.com/company/bau-radio/" target="_blank"><img src="../assets/svg/linkedin.svg" alt="" class="h-10" /></a>
-      <a href="https://www.youtube.com/channel/UCqbb6Kk9_tZeIUtI82B6FFg" target="_blank"><img src="../assets/svg/youtubr.svg" alt="" class="h-10" /></a>
+      <a href="https://www.facebook.com/bauradio21" target="_blank" ref="noopener"><img src="../assets/svg/facebook.svg" alt="" class="h-10" /></a>
+      <a href="https://www.instagram.com/bau_radio/" target="_blank" ref="noopener"><img src="../assets/svg/instagram.svg" alt="" class="h-10" /></a>
+      <a href="https://www.linkedin.com/company/bau-radio/" target="_blank" ref="noopener"><img src="../assets/svg/linkedin.svg" alt="" class="h-10" /></a>
+      <a href="https://www.youtube.com/channel/UCqbb6Kk9_tZeIUtI82B6FFg" target="_blank" ref="noopener"><img src="../assets/svg/youtubr.svg" alt="" class="h-10" /></a>
     </div>
   </div>
     
@@ -21,11 +21,11 @@
           tracking-wider
         "
       >
-        Support
+        Contact us
       </p>
       <ul>
-        <li><nuxt-link to="ourteam">Our team</nuxt-link></li>
-        <li><nuxt-link to="faq">FAQ</nuxt-link></li>
+        <li>+8801784-581634</li>
+        <li><a href="mailto:bauradio.official@gmail.com">bauradio.official@gmail.com</a></li>
       </ul>
     </div>
     <div class="text-white p-6 md:p-0">
