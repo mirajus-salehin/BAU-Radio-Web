@@ -54,7 +54,7 @@ export default {
         logo: "/team/logos/logo_it.svg",
         slug: "information-and-technology-team",
         head:{
-          name:"Miazus Salehin",
+          name:"Mirazus Salehin",
           img:"https://i.imgur.com/onsegbH.jpg"
         },
         members: [

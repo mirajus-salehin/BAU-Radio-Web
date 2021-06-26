@@ -1,56 +1,50 @@
 <template>
-  <div>
+  <main class="mt-24 mb-4">
     <!--intro section-->
-    <section class="lg:flex space-y-2 md:space-x-1 mt-10">
-      <div class="w-full md:w-2/5 m-auto">
-        <h1 class="title-text">BAU Radio</h1>
-        <h3 class="moto">Echoes of dreams</h3>
-        <p
-          class="
-            pt-4
-            md:pt-10
-            mr-10
-            ml-10
-            text-justify
-            md:text-left
-            leading-loose
-          "
-        >
+    <section
+      class="flex flex-col justify-center items-center lg:flex-row space-x-2 mt-10"
+    >
+      <div class="lg:w-2/5 m-auto px-4">
+        <h1 class="title-text text-center xl:text-left">BAU Radio</h1>
+        <h3 class="moto mt-10 text-center xl:text-left">Echoes of dreams</h3>
+        <p class="pt-4 text-justify md:text-left leading-loose">
           BAU Radio is an online radio station of Bangladesh Agricultural
           University, administrated by its student.The very first online
-          streaming platform has come to light in the <b>60-years history</b> of
-          BAU.
+          streaming platform has come to light in the
+          <b><br> 60-years history</b> of BAU.
         </p>
-        <div class="ml-10 mt-4 mb-4">
+        <div class="pt-4">
           <a
             href="https://www.youtube.com/channel/UCqbb6Kk9_tZeIUtI82B6FFg"
             target="_blank"
+            ref="noopener"
           >
             <button class="btn" v-on:click="track">Tune in</button>
           </a>
         </div>
       </div>
-      <div class="w-full md:w-3/5"><svg1 class="mx-auto" /></div>
+      <div class="flex justify-center lg:w-3/5"><svg1 /></div>
     </section>
-    <!--who are we-->
-    <section class="md:flex md:flex-col mt-24 mb-10">
-      <div class="mx-auto mb-10">
+    <!--who are we section-->
+    <section class="mt-24 mb-10">
+      <div class="mx-auto text-center mb-10 max-w-6xl">
         <h1
           class="mx-auto text-center font-bold text-3xl lg:text-5xl"
           data-aos="fade-up"
-          data-aos-anchor-placement="center-center"
+          data-aos-anchor-placement="top-center"
         >
           Who are we
         </h1>
       </div>
       <div
         class="
-          grid grid-cols-1
+          inline-grid
+          grid-cols-1
           md:grid-cols-2
           lg:grid-cols-2
           place-items-center
           justify-items-center
-          items-start
+          items-baseline
           gap-4
         "
       >
@@ -66,15 +60,25 @@
       </div>
     </section>
     <!--echoes of dreams-->
-    <section class="md:flex space-x-1 mt-10">
+    <section class="md:flex mt-10">
       <div
-        class="w-full md:w-3/5"
-        data-aos="fade-right"
+        class="m-auto md:w-3/5"
+        data-aos="zoom-in-up"
         data-aos-anchor-placement="top-center"
       >
         <svg2 />
       </div>
-      <div class="w-full md:w-2/5 m-auto text-center">
+      <div
+        class="
+          md:w-2/5
+          text-center
+          flex flex-col
+          place-items-center
+          justify-items-center
+          items-center
+          my-auto
+        "
+      >
         <h1
           class="title-text"
           id="q"
@@ -84,9 +88,8 @@
           Echoes of dreams
         </h1>
         <p
-          class="pt-10 pr-4 ml-10 mr-10 leading-loose"
-          data-aos="fade-left"
-          data-aos-anchor="#q"
+          class="leading-loose px-6 pt-6"
+          data-aos="fade-down"
           data-aos-anchor-placement="top-center"
         >
           Evreyone is a dreamer. But not everyone has the right platform to
@@ -97,25 +100,33 @@
       </div>
     </section>
     <!--got anything to share-->
-    <section class="md:flex space-x-1 mt-10">
+    <section class="md:flex space-x-1 mt-24">
       <div class="w-full md:w-2/5 m-auto">
-        <h1 class="title-text text-center" data-aos="fade-right">
+        <h1 class="title-text text-center" data-aos="fade-down">
           Got anything to share?
         </h1>
-        <p class="pt-10 px-4 mx-10 text-justify leading-loose" data-aos="fade-up">
+        <p
+          class="pt-10 px-4 text-center leading-loose"
+          data-aos="fade-up"
+        >
           We will help you to share to the whole university. Through our
           platform you will have access to the thousands of students of our
           university and others.
         </p>
-        <div class="ml-10 mt-4 mb-4">
-          <nuxt-link to="contact">
-            <button class="btn" data-aos="fade-down">Contact us</button>
+        <div class="max-w-lg mx-auto" data-aos="zoom-in">
+          <nuxt-link to="contact" class="flex justify-center place-items-center">
+            <button class="btn mt-10">Contact us</button>
           </nuxt-link>
         </div>
       </div>
-      <div class="w-full md:w-3/5" data-aos="fade-left" data-aos-anchor-placement="center-center"><svg3 /></div>
+      <div
+        class="w-full md:w-3/5"
+        data-aos="fade-down"
+      >
+        <svg3 />
+      </div>
     </section>
-  </div>
+  </main>
 </template>
 
 <script>
@@ -192,11 +203,11 @@ export default {
 
 <style scoped>
 .title-text {
-  @apply font-bold text-3xl lg:text-5xl py-4 md:py-8 px-10 md:pl-10 tracking-widest;
+  @apply font-bold text-3xl lg:text-5xl tracking-widest;
 }
 
 .moto {
-  @apply hidden md:block py-2 mx-10 text-xl lg:text-2xl text-brand-black tracking-wider font-semibold;
+  @apply hidden md:block text-xl lg:text-2xl text-brand-black tracking-wider font-semibold;
 }
 .btn {
   @apply focus:ring-0 bg-brand-green text-white hover:shadow-md hover:bg-brand-dark transform hover:translate-x-2 font-bold rounded-full px-8 py-2 transition-all ease-out duration-200;

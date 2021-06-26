@@ -10,7 +10,11 @@
         </div>
         <div class="mt-10">
           <div class="flex place-items-center gap-x-6 justify-center">
-            <a href="https://www.facebook.com/bauradio21" target="_blank">
+            <a
+              href="https://www.facebook.com/bauradio21"
+              target="_blank"
+              ref="noopener"
+            >
               <svg
                 class="
                   h-10
@@ -35,7 +39,11 @@
                 />
               </svg>
             </a>
-            <a href="https://www.instagram.com/bau_radio/" target="_blank">
+            <a
+              href="https://www.instagram.com/bau_radio/"
+              target="_blank"
+              ref="noopener"
+            >
               <svg
                 class="
                   h-10
@@ -61,6 +69,7 @@
             <a
               href="https://www.linkedin.com/company/bau-radio/"
               target="_blank"
+              ref="noopener"
             >
               <svg
                 class="
@@ -87,6 +96,7 @@
             <a
               href="https://www.youtube.com/channel/UCqbb6Kk9_tZeIUtI82B6FFg"
               target="_blank"
+              ref="noopener"
             >
               <svg
                 class="
@@ -204,11 +214,40 @@
         </div>
       </div>
     </div>
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
   </section>
 </template>
 
 <script>
+import AOS from "aos";
+import "aos/dist/aos.css";
 export default {
+  mounted() {
+    AOS.init({});
+    var chatbox = document.getElementById("fb-customer-chat");
+    chatbox.setAttribute("page_id", "103200205317133");
+    chatbox.setAttribute("attribution", "biz_inbox");
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: "v11.0",
+      });
+    };
+
+    (function (d, s, id) {
+      var js,
+        fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    })(document, "script", "facebook-jssdk");
+  },
   head() {
     return {
       title: "Contact",

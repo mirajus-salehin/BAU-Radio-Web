@@ -17,7 +17,7 @@
           </nuxt-link>
         </div>
       </div>
-      <div class="mt-4 flex gap-x-6">
+      <div class="mt-4 flex flex-wrap gap-6 justify-center">
         <ShareNetwork
           network="twitter"
           :url="'https://www.bau-radio.com/' + article.slug"
@@ -42,9 +42,9 @@
         </ShareNetwork>
         <ShareNetwork
           network="facebook"
-          :url="'https://www.bau-radio.com/' + article.slug " 
+          :url="'https://www.bau-radio.com/' + article.slug"
           :title="article.title"
-          description="article.description"
+          :description="article.description"
         >
           <div
             class="
@@ -64,9 +64,9 @@
         </ShareNetwork>
         <ShareNetwork
           network="linkedin"
-          :url="'https://www.bau-radio.com/' + article.slug " 
+          :url="'https://www.bau-radio.com/' + article.slug"
           :title="article.title"
-          description="article.description"
+          :description="article.description"
         >
           <div
             class="
@@ -106,6 +106,26 @@ export default {
       title: this.article.title,
       meta: [
         {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: this.article.title,
+        },
+        {
+          hid: "twitter:description",
+          name: "twitter:description",
+          content: this.article.description,
+        },
+        {
+          hid: "twitter:image",
+          name: "twitter:image",
+          content: this.article.image,
+        },
+        {
+          hid: "twitter:image:alt",
+          name: "twitter:image:alt",
+          content: this.article.title,
+        },
+        {
           hid: "description",
           name: "description",
           content: "Read more about this blog post",
@@ -126,7 +146,7 @@ export default {
       ],
       script: [
         {
-          src: "https://kit.fontawesome.com/a076d05399.js",
+          src: "https://kit.fontawesome.com/0162ac918d.js",
           async: true,
           body: true,
         },

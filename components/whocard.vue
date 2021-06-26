@@ -1,11 +1,10 @@
 <template>
-  <div class="rounded-md px-6 mx-auto bg-white w-96">
-    <img :src="logo" alt="" class="mx-auto p-10" />
-    <p class="font-bold text-2xl mx-auto text-center">
+  <div class="w-full flex flex-col space-y-4 place-items-center">
+    <img :src="logo" alt="" />
+    <p class="font-bold text-2xl text-center">
       {{ title }}
     </p>
-    <br />
-    <p class="mx-auto text-center text-base text-brand-green pb-10 px-4">
+    <p class="text-center text-base text-brand-green pb-10  lg:w-3/4 xl:w-1/2">
       {{ subtitle }}
     </p>
   </div>

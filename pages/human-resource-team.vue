@@ -55,10 +55,15 @@ export default {
         logo: "/team/logos/logo_hr.svg",
         slug: "human-resource-team",
         head: {
-          name: "Adia Sultana",
-          img: "https://i.imgur.com/g0pX4bm.png",
+          name: "Mafruha Khanom",
+          desc: "An earnest person who is accountable to the responsibilities. Immense passion for painting and volunteering where it is helping to get inner peace. If it is needed for the works, can take pressure of work and a habit to make it perfect.",
+          img: "https://i.imgur.com/mKiPf90.jpg",
         },
         members: [
+          {
+            name: "Adia Sultana",
+            img: "https://i.imgur.com/mbz5Iw9.jpg",
+          },
           {
             name: "Ridwan Ahmed Rahat",
             desc: "Let's EXPLORE! There Is No Reason To STOP..",
@@ -79,11 +84,7 @@ export default {
             desc: "An enthusiastic and responsible one, with a very optimistic soul. Loves to seize every moments in life. Has proved her excellence on the stage of debate and public speaking. An animal lover, has a keen interest in oceanography and marine biology. Travelling all over the world is the biggest dream of her. Has a voluntary organization of her own. Believes that positivity can solve every problem in life.",
             img: "https://i.imgur.com/y6PeZX8.jpg",
           },
-          {
-            name: "Mafruha Khanom",
-            desc: "An earnest person who is accountable to the responsibilities. Immense passion for painting and volunteering where it is helping to get inner peace. If it is needed for the works, can take pressure of work and a habit to make it perfect.",
-            img: "https://i.imgur.com/mKiPf90.jpg",
-          },
+
           {
             name: "Syeda Tahmida Yeasmin",
             desc: "",
@@ -93,6 +94,16 @@ export default {
             name: "Shanjida Afroz Supti",
             desc: "Sometimes its hard to introduce myself because i know myself so well that i do not know where to start. I am a person who is positive about every aspect of life. I am just someone who is still trying to be a good human being. The thing that makes me relax is music. I am very passionate about my works and I am highly ambitious. I love meeting new people .  ",
             img: "https://i.imgur.com/u0K02cV.jpg",
+          },
+          {
+            name: "Ashikul Islam Sazzad",
+            desc: " ",
+            img: "https://i.imgur.com/2gON3uA.jpg",
+          },
+          {
+            name: "Nusaifa Ahsan",
+            desc: "",
+            img: "https://i.imgur.com/7MRfga8.jpg",
           },
         ],
       },
