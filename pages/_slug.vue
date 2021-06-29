@@ -95,7 +95,7 @@
       </div>
       <div
         class="fb-comments max-w-prose flex justify-center mt-4"
-        data-href="https://www.bau-radio.com/blog"
+        :data-href="'https://www.bau-radio.com/' + article.slug"
         data-width="100%"
         data-numposts="10"
       ></div>
