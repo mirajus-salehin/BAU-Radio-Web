@@ -58,11 +58,7 @@ export default {
           img:"https://i.imgur.com/onsegbH.jpg"
         },
         members: [
-          {
-            name: "Arpan Das",
-            img: "https://i.imgur.com/IzB60IL.jpg",
-            desc: "Ambitious. May be not the best with work but can give full effort to complete the tasks. Like to seek out the learning opportunities and not afraid to fail and struggle as a part of learning. Capability to fit in any work environment and co-workers.",
-          },
+          
         ],
       },
     };
