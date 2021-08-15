@@ -24,7 +24,7 @@
         Contact us
       </p>
       <ul>
-        <li>+8801784-581634</li>
+        <li><a href="tel:+8801784-581634">+8801784-581634</a></li>
         <li><a href="mailto:bauradio.official@gmail.com">bauradio.official@gmail.com</a></li>
       </ul>
     </div>
