@@ -1,5 +1,13 @@
 <template>
   <article class="p-6 lg:px-16 mt-10 mb-10 min-h-screen">
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0&appId=790052285034541&autoLogAppEvents=1"
+      nonce="tfmmRPxA"
+    ></script>
     <nuxt-content
       :document="article"
       class="prose sm:prose-sm md:prose:md lg:prose-lg mx-auto"
@@ -85,6 +93,12 @@
           </div>
         </ShareNetwork>
       </div>
+      <div
+        class="fb-comments max-w-prose flex justify-center mt-4"
+        :data-href="'https://www.bau-radio.com/' + article.slug"
+        data-width="100%"
+        data-numposts="10"
+      ></div>
     </div>
   </article>
 </template>
@@ -96,6 +110,9 @@ import Vue from "vue";
 Vue.use(VueSocialSharing);
 
 export default {
+  mounted() {
+    document.cookie = "SameSite=None; Secure";
+  },
   async asyncData({ $content, params }) {
     const article = await $content("blog", params.slug).fetch();
 
@@ -104,6 +121,7 @@ export default {
   head() {
     return {
       title: this.article.title,
+      script: [],
       meta: [
         {
           hid: "twitter:title",

@@ -2,7 +2,14 @@
   <main class="mt-24 mb-4">
     <!--intro section-->
     <section
-      class="flex flex-col justify-center items-center lg:flex-row space-x-2 mt-10"
+      class="
+        flex flex-col
+        justify-center
+        items-center
+        lg:flex-row
+        space-x-2
+        mt-10
+      "
     >
       <div class="lg:w-2/5 m-auto px-4">
         <h1 class="title-text text-center xl:text-left">BAU Radio</h1>
@@ -11,7 +18,11 @@
           BAU Radio is an online radio station of Bangladesh Agricultural
           University, administrated by its student.The very first online
           streaming platform has come to light in the
-          <b><br> 60-years history</b> of BAU.
+          <b
+            ><br />
+            60-years history</b
+          >
+          of BAU.
         </p>
         <div class="pt-4">
           <a
@@ -105,25 +116,44 @@
         <h1 class="title-text text-center" data-aos="fade-down">
           Got anything to share?
         </h1>
-        <p
-          class="pt-10 px-4 text-center leading-loose"
-          data-aos="fade-up"
-        >
+        <p class="pt-10 px-4 text-center leading-loose" data-aos="fade-up">
           We will help you to share to the whole university. Through our
           platform you will have access to the thousands of students of our
           university and others.
         </p>
         <div class="max-w-lg mx-auto" data-aos="zoom-in">
-          <nuxt-link to="contact" class="flex justify-center place-items-center">
+          <nuxt-link
+            to="contact"
+            class="flex justify-center place-items-center"
+          >
             <button class="btn mt-10">Contact us</button>
           </nuxt-link>
         </div>
       </div>
-      <div
-        class="w-full md:w-3/5"
-        data-aos="fade-down"
-      >
+      <div class="w-full md:w-3/5" data-aos="fade-down">
         <svg3 />
+      </div>
+    </section>
+    <!--medai release section-->
+    <section class="space-x-1 mt-24 mb-24">
+      <div class="w-full m-auto">
+        <h1 class="title-text text-center mb-20" data-aos="fade-down">
+          Media release
+        </h1>
+      </div>
+      <div class="flex flex-wrap justify-center p-12 gap-x-10 gap-y-10">
+        <mediareleasecard
+          imgPath="/mediaRelease/agami.png"
+          title="বাউ রেডিওঃ ১২৩১ একরের সবুজস্বর্গে স্বাগতম"
+          news="স্বপ্ন সেটা নয় যেটা মানুষ ঘুমিয়ে ঘুমিয়ে দেখে, স্বপ্ন সেটাই যেটা পূরণের প্রত্যাশা মানুষকে ঘুমাতে দেয় না।” - ড. এ পি জে আবদুল কালাম বাংলাদেশ কৃষি বিশ্ববিদ্যালয়ের কিছু স্বপ্নবাজ তরুণদের সাথে ঠিক এই ঘটনাটিই ঘটেছিল। তারা যে স্বপ্ন দেখেছিলো সেই স্বপ্ন পূরণের প্রত্যাশা তাদের ছুটিয়েছে নতুন এক শুরুর দিকে, নতুন এক সৃষ্টির দিকে। আর সেই নতুন কিছুর দিকে তারা ছুটেছে পূর্ণ উদ্দ্যমে, পূর্ণ শক্তিতে। যার ফল হলো বাউ রেডিও। "
+          link="https://agami.com.bd/details/%E0%A6%AC%E0%A6%BE%E0%A6%89-%E0%A6%B0%E0%A7%87%E0%A6%A1%E0%A6%BF%E0%A6%93%E0%A6%83-%E0%A7%A7%E0%A7%A8%E0%A7%A9%E0%A7%A7-%E0%A6%8F%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AC%E0%A7%81%E0%A6%9C%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%97%E0%A6%A4%E0%A6%AE/112/"
+        ></mediareleasecard>
+        <mediareleasecard
+          imgPath="/mediaRelease/bangonews24logo.png"
+          title="দেশ সেরা ক্যাম্পাস রেডিও প্ল্যাটফর্ম হওয়াই বাউ রেডিওর ভিশন, -রাফাত হাসান"
+          news="“স্বপ্ন সেটা নয় যেটা মানুষ ঘুমিয়ে ঘুমিয়ে দেখে, স্বপ্ন সেটাই যেটা পূরণের প্রত্যাশা মানুষকে ঘুমাতে দেয় না।” – ড. এ পি জে আবদুল কালাম বাংলাদেশ কৃষি বিশ্ববিদ্যালয়ের কিছু স্বপ্নবাজ তরুণদের সাথে ঠিক এই ঘটনাটিই ঘটেছিল। তারা যে স্বপ্ন দেখেছিলো সেই স্বপ্ন পূরণের প্রত্যাশা তাদের ছুটিয়েছে নতুন এক শুরুর দিকে, নতুন এক সৃষ্টির দিকে। আর সেই নতুন কিছুর দিকে তারা ছুটেছে পূর্ণ উদ্দ্যমে, পূর্ণ শক্তিতে। যার ফল হলো বাউ রেডিও।"
+          link="https://www.bangonews24.com/%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%B8%E0%A7%87%E0%A6%B0%E0%A6%BE-%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BE%E0%A6%B8-%E0%A6%B0%E0%A7%87%E0%A6%A1%E0%A6%BF%E0%A6%93/"
+        ></mediareleasecard>
       </div>
     </section>
   </main>
@@ -135,9 +165,10 @@ import svg2 from "~/components/svg2";
 import svg3 from "~/components/svg3";
 import whocard from "~/components/whocard";
 import aos from "~/plugins/aos";
+import mediareleasecard from "~/components/mediareleasecard";
 export default {
   mixins: [aos],
-  components: { svg1, svg2, svg3, whocard },
+  components: { svg1, svg2, svg3, whocard, mediareleasecard },
   head() {
     return {
       title:
@@ -214,5 +245,10 @@ export default {
 }
 html {
   scroll-behavior: smooth;
+}
+media-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-lines: 4;
 }
 </style>
