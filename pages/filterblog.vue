@@ -94,7 +94,7 @@
 export default {
   async asyncData({ $content, route }) {
     const filteredArticles = await $content("blog")
-      .where({ tags: { $containsAny: route.query.tags } })
+      .where({ tags: { $contains: route.query.tags } })
       .fetch();
 
     return { filteredArticles };
