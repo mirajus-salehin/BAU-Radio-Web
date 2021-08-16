@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/video-editing-team", {data:[{}],fetch:{},mutations:void 0});

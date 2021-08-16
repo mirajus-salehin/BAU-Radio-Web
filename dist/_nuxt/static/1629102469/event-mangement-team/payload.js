@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/event-mangement-team", {data:[{}],fetch:{},mutations:void 0});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/strategy-and-planning-team", {data:[{_img:{}}],fetch:{},mutations:void 0});

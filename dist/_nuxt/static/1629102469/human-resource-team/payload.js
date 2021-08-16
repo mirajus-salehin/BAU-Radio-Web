@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/human-resource-team", {data:[{}],fetch:{},mutations:void 0});

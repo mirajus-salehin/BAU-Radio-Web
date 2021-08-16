@@ -48,12 +48,10 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-analytics',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxt/image',
     '@nuxt/content',
     'vue-social-sharing/nuxt'
   ],
@@ -64,9 +62,6 @@ export default {
     configPath: 'tailwind.config.js',
     exposeConfig: false,
     config: {}
-  },
-  googleAnalytics: {
-    id: 'G-RC5LJBWHTC' // or use process.env.GOOGLE_ANALYTICS_ID
   },
 
 }
