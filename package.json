@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.2.0",
-    "@nuxtjs/web-vitals": "^0.1.7",
+    "@nuxtjs/web-vitals": "^0.1.8",
     "postcss": "^8.3.6"
   }
 }
