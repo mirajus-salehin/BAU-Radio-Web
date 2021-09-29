@@ -9,6 +9,8 @@ titleImage: "https://i.imgur.com/mM1LKej.png"
 tags : ["piracy","cinema","bangla ott",]
 ---
 
+![link or subscribe](https://i.imgur.com/mM1LKej.png)
+
 
 <p align=center>
 Not everyone want money,<br>
