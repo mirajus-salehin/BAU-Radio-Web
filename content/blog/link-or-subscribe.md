@@ -1,5 +1,5 @@
 ---
-title: "লিংক নাকি সাবস্ক্রাইব?"
+title: "লিংক নাকি সাবস্ক্রাইব? || আবির আনজুম"
 description: "লিংক নাকি সাবস্ক্রাইব?"
 slug: link-or-subscribe
 read: 5 min read
