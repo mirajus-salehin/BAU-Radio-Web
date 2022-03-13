@@ -54,11 +54,6 @@ export default {
             img: "https://i.imgur.com/6IJt9M3.jpg",
           },
           {
-            name: "Sukanto Kumar Das",
-            desc: "literature lover and a wtiter, peom recitor.",
-            img: "https://i.imgur.com/lmc5zat.jpg",
-          },
-          {
             name: "Sumaiya Amrin",
             desc: "",
             img: "https://i.imgur.com/4CihMpo.jpg",
